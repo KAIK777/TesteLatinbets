@@ -1207,6 +1207,22 @@ footer {
   padding: 10px 30px;
 }
 
+.idiomas ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.idiomas ul div {
+  flex: 40px;
+  max-width: 50px;
+}
+
+.idiomas ul li img {
+  width: 50px;
+  max-width: 90%;
+  padding-right: 10px;
+}
+
 @media (max-width: 1400px) {
   .conteudo-center, .conteudo-center2 {
     width: 65%;
