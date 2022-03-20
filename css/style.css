@@ -623,7 +623,6 @@ header {
 }
 
 .modal-content {
-  background: #182a48;
   color: #FFF;
 }
 
@@ -1097,6 +1096,117 @@ footer {
   font-weight: 700;
 }
 
+.boletim-mobile {
+  position: fixed;
+  z-index: 10;
+  right: -2px;
+  bottom: 100px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #601212;
+}
+
+.modal-content.bilhete {
+  background: #380a0c !important;
+  border: 10px solid #601212 !important;
+  border-radius: 0px !important;
+}
+
+.modal-content {
+  background: #182a48;
+  color: #FFF;
+}
+
+.table-boletim-mobile {
+  width: 100%;
+}
+
+.input-aposta {
+  max-width: 60px;
+  height: 20px;
+  color: #000;
+  font-size: 12px;
+}
+
+.title-boletim-de-aposta {
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+  background-color: #601212;
+}
+
+.boletim-da-aposta {
+  background-color: #601212;
+}
+
+.listagem-boletim div {
+  display: flex;
+}
+
+.coluna-1, .coluna-2 {
+  font-size: 12px;
+  font-family: Roboto, sans-serif;
+}
+
+.listagem-boletim {
+  display: flex;
+  justify-content: space-between;
+  background: #380a0c;
+  border-bottom: 1px solid #a6e82c;
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.listagem-boletim div a {
+  background-color: rgba(255,255,255,0.2);
+  padding: 0px 5px;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.box-table-boletim, .nova-aposta {
+  padding: 5px 5px;
+}
+
+.title-vitoria-aposta {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.title-vitoria {
+  font-size: 13px;
+  text-transform: uppercase;
+  background: #531b1b;
+}
+
+.title-vitoria-aposta {
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: #380a0c;
+}
+
+.title-vitoria, .title-vitoria-aposta {
+  text-align: center;
+}
+
+.nv-aposta {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.nv-aposta a {
+  color: #FFF;
+  font-size: 10px;
+  line-height: 30px;
+  text-transform: uppercase;
+  justify-content: center;
+  background-color: #601212;
+  border: 2px solid #601212;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
 @media (max-width: 1400px) {
   .conteudo-center, .conteudo-center2 {
     width: 65%;
@@ -1214,6 +1324,9 @@ footer {
   }
   .conteudo-right2 {
     display: none !important;
+  }
+  .boletim-mobile {
+    display: block !important;
   }
   .menu-superior-right.user-off a {
     margin-bottom: 0px;
