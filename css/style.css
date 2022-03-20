@@ -604,8 +604,13 @@ header {
   font-size: 12px;
 }
 
-.table-responsive .title, .table-responsive form {
+.mainpgextrato .table-responsive .title, .table-responsive form {
   text-align: center;
+  width: 100%;
+}
+
+.mainpgextrato .formcaixa input {
+  width: 100%;
 }
 
 .formcaixa {
