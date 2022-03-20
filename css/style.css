@@ -604,12 +604,12 @@ header {
   font-size: 12px;
 }
 
-.mainpgextrato .table-responsive .title, .table-responsive form {
+.mainpgextrato .table-responsive .title, .table-responsive form, .boxmainpgcaixa .formcaixa form {
   text-align: center;
   width: 100%;
 }
 
-.mainpgextrato .formcaixa input {
+.mainpgextrato .formcaixa input, .boxmainpgcaixa .formcaixa input {
   width: 100%;
 }
 
