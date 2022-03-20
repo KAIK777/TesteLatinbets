@@ -2987,6 +2987,88 @@
     </div>
   </footer>
 
+  <!-- Modal Bilhete Mobile -->
+  <a href="#" class="boletim-mobile" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="display: none;">
+    <img src="img/ícones/tag.png" width="30px">
+  </a>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bilhete">
+        <div class="modal-header bilhete">
+          <h5 class="modal-title" id="staticBackdropLabel"><img src="img/ícones/tag.png" width="30px">Boletim de Aposta</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body bilhete">
+          <div class="sem-bilhete" style="display: none;">
+            <div>
+              <p class="mensagem-boletim-mobile">Não há seleções disponíveis.</p>
+            </div>
+            <div>
+              <p class="mensagem-erro-boletim-mobile">Não é possível jogar a Aposta [1.1.3].</p>
+            </div>
+          </div>
+
+          <div class="com-bilhete" style="display: block;">
+          <div class="boletim-da-aposta">
+            <p class="title-boletim-de-aposta"> <span>AL Wehda</span> - <span>Ohud Medina</span></p>
+
+            <div class="listagem-boletim">
+            <p>X  1x2</p>
+            <div>
+              <p>3.85</p>
+              <a href="#">X</a>
+              </div>
+            </div>
+              
+            <div class="box-table-boletim">
+            <table class="table-boletim-mobile">
+                  <tbody>
+                    <tr>
+                      <td class="coluna-1">Seleções</td>
+                      <td class="coluna-2"> 1 </td>
+                    </tr>
+    
+                    <tr>
+                      <td class="coluna-1">Odds totais</td>
+                      <td class="coluna-2"> 3.85 </td>
+                    </tr>
+    
+                    <tr>
+                      <td class="coluna-1">Aposta</td>
+                      <td class="coluna-2"> <input type="text" placeholder="0.00" class="input-aposta"> </td>
+                    </tr>
+    
+                    <tr>
+                      <td class="coluna-1">Aceitar mudanças das odds</td>
+                      <td class="coluna-2"> 
+                        <div class="form-check">
+                          <input class="form-check-input check-aposta" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        </div>
+                      </td>
+                    </tr>
+    
+                    <tr>
+                      <td colspan="2" class="title-vitoria"> <p>Vitória Máxima</p> </td>
+                    </tr>
+      
+                    <tr>
+                      <td colspan="2" class="title-vitoria-aposta"><p>0.00</p></td>
+                    </tr>
+                  </tbody>
+            </table>
+            </div>
+          </div>
+
+          <div class="nv-aposta">
+            <a href="#">Nova Aposta</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Modal LOGIN-->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
