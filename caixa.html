@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latinbets</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="menu-superior">
+      <nav>
+        <div class="menu-superior-left">
+          <ul>
+            <div class="area-logo">
+              <li>
+                <a href="index.html">
+                  <img src="img/logo.png" alt="Latinbets" width="200px">
+                </a>
+              </li>
+            </div>
+            
+            <div class="categorias-superior">
+              <li>
+                <a href="#">Esportes</a>
+              </li>
+  
+              <li>
+                <a href="#">Ao vivo</a>
+              </li>
+      
+              <li>
+                <a href="#">Cassino</a>
+              </li>
+      
+              <li>
+                <a href="#">Cassino ao Vivo</a>
+              </li>
+      
+              <li>
+                <a href="#">Promoções</a>
+              </li>
+            
+            </div> 
+          </ul>
+        </div>
+        
+        <div class="menu-superior-right user-off" style="display: none;">
+          <div>
+            <a href="#" class="btn-login" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Entrar
+            </a>
+          </div>
+          <div>
+            <a href="cadastro.html" class="btn-cadastro">
+              Cadastrar
+            </a>
+          </div>
+        </div>
+        
+        <div class="menu-superior-right user-on" style="display: flex;">
+  
+          <div class="mensagens">
+            <a href="#">
+              <img src="img/ícones/mensagem.png" alt="Mensagens" width="20px">
+              <p>Mensagens</p>
+            </a>
+          </div>
+          
+          <div class="perfil">
+            <li>
+              <a href="#">
+                <img src="img/ícones/profile.png" alt="Saldo" width="20px">
+                <p>R$ 0,00</p>
+              </a>
+            </li>
+
+            <div class="submenu-drop">
+              <a href="meusdados.html"><p>Meus Dados</p></a>
+              <a href="deposito.html"><p>Depositar</p></a>
+              <a href="saque.html"><p>Sacar</p></a>
+              <a href="caixa.html"><p>Caixa</p></a>
+              <a href="extrato.html"><p>Extrato</p></a>
+            </div>
+          </div>
+
+          <div class="deposito">
+            <a href="deposito.html" class="btn-deposito">
+              Depósito
+            </a>
+          </div>
+        </div> 
+      </nav>
+    </div>
+
+    <div class="menu-inferior">
+      <nav>
+        <div class="btn-group mobile" style="display: none;">
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            MENU
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Página Inicial</a>
+            </li>
+            <li>
+              <a href="#">Ao Vivo</a>
+            </li>
+            <li>
+              <a href="#">Minha Múltipla</a>
+            </li>
+            <li>
+              <a href="#">Procurar</a>
+            </li>
+            <li>
+              <a href="#">Favoritos</a>
+            </li>
+            <li>
+              <a href="#">Minhas Apostas</a>
+            </li>
+          </ul>
+        </div>
+        <div class="categorias-inferior">
+          <li class="item-inferior selected">
+            <a href="#">
+              <img src="img/ícones/latinbets-icone.png" alt="Página Inicial" width="18px">
+              <span>Página Inicial</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/ao vivo.png" alt="Ao vivo" width="20px">
+              <span>Ao Vivo</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/minha-multipla.png" alt="Minha Múltipla" width="18px">
+              <span>Minha Múltipla</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/futebol.png" alt="Futebol" width="18px">
+              <span>Futebol</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/tênis.png" alt="Tênis" width="18px">
+              <span>Tênis</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/basquete.png" alt="Basquete" width="18px">
+              <span>Basquete</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/voleibol.png" alt="Voleibol" width="18px">
+              <span>Voleibol</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/futebol-americano.png" alt="Futebol Americano" width="18px">
+              <span>Futebol Americano</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/fórmula-1.png" alt="Fórmula 1" width="18px">
+              <span>Fórmula 1</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/corrida-de-cavalos.png" alt="Corrida de Cavalos" width="20px">
+              <span>Corrida de Cavalo</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/a-z.png" alt="Esportes de A a Z" width="18px">
+              <span>A-Z Esportes</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/virtuais.png" alt="Virtuais" width="18px">
+              <span>Virtuais</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/procurar.png" alt="Procurar" width="18px">
+              <span>Procurar</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/favorito-1.png" alt="Favoritos" width="18px">
+              <span>Favoritos</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/profile_2.png" alt="Minhas Apostas" width="18px">
+              <span>Minhas Apostas</span>
+            </a>
+          </li>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mainpgcaixa">
+    <div class="boxmainpgcaixa">
+            <br>
+            <h2>Gestão de Banca</h2>
+            <form class="formcaixa" action="#">
+                DE
+
+                <input type="date">
+                
+                ATÉ
+                <input type="date">
+
+                <br>
+
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Filtrar</button>
+                </div>
+            </form>
+            
+            <br>
+            <h2>Meu Caixa</h2>
+            <div class="cardscaixa">
+                <div>
+                    <p>Apostas em Aberto</p>
+                    <h3>R$ 0,00</h3>
+                </div>
+                <div>
+                    <p>Apostas</p>
+                    <h3>R$ 0,00</h3>
+                </div>
+                <div>
+                    <p>Prêmios</p>
+                    <h3>R$ 0,00</h3>
+                </div>
+                <div>
+                    <p>Total</p>
+                    <h3>R$ 0,00</h3>
+                </div>
+            </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="fm-FooterModule_Wrapper ">
+      <div class="fbr-FooterModuleBR_ThirdPartyLogosCell ">
+        <div class="fol-ImageLink ">
+          <img src="img/footer/GT_v2.svg">
+        </div><div class="fol-ImageLink ">
+          <img src="img/footer/InternationalBettingIntegrity.svg">
+        </div>
+        <div class="fol-ImageLink ">
+          <img src="img/footer/MGA.svg">
+        </div>
+        <div class="fol-ImageLink ">
+          <img src="img/footer/eCogra.svg">
+        </div>
+        <img src="img/footer/18.svg" class="fol-ImageElement ">
+      </div>
+    </div>
+
+    <div class="fm-FooterModule_Content ">
+      <div class="fm-FooterModule_LogoHolder ">
+        <img src="img/logo.png" class="fm-FooterModule_Logo" width="150px">
+
+        <div class="fbr-FooterModuleBR_RegisteredOfficeTextContainer ">
+          <div class="fbr-FooterModuleBR_GambleResponsibly ">Apostar pode provocar dependência, por favor jogue responsavelmente. Para informação sobre formas de apoio, por favor acesse a nossa <span class="fol-LabelLink ">página de Ajuda de Jogo Responsável</span>.
+          </div>
+          
+          <div class="fbr-FooterModuleBR_License ">Hillside (Sports) ENC, número de registro P1811, Office 1/2373, Level G, Quantum House, 75 Abate Rigord Street, Ta’ Xbiex XBX 1120, Malta. Hillside (Sports) ENC é licenciada e regulada pela Malta Gaming Authority (MGA), Licença número <div class="fbr-FooterModuleBR_LicenseNumber "><span class="fol-LabelLink ">MGA/B2C/531/2018</span>.
+          </div>
+        </div>
+      </div>
+      
+      <div class="fm-FooterModule_Copyright ">© 2001-2022 bet365. Todos os direitos reservados.</div>
+        <div class="fm-FooterModule_ServerTimeCell ">
+          <div class="fm-FooterModule_ServerTime ">Hora do Servidor 04:56:26 GMT-3</div>
+        </div>
+      </div>
+
+      <div class="fm-SitesMenu fm-SitesMenu_SingleColumn fm-SitesMenu_WidthState1 ">
+        <div class="fm-SiteLink ">Cassino</div>
+        <div class="fm-SiteLink ">Cassino Ao-Vivo</div>
+        <div class="fm-SiteLink ">Jogos</div>
+        <div class="fm-SiteLink ">Pôquer</div>
+      </div>
+    </div>
+
+    <div class="fbr-FooterModuleBR_CookieText ">
+      <div class="fm-FooterModule_CookiePolicy ">Ao acessar, continuar a utilizar ou ao navegar neste site, você aceita que utilizemos certos cookies de navegador com o objetivo de melhorar a sua experiência como usuário. A bet365 apenas utiliza cookies que melhoram a sua experiência e não interferem em sua privacidade. Por favor, consulte a nossa <span class="fol-CookieLabelLink ">Política de Cookies</span><span> para mais informações sobre a forma como utilizamos cookies e como pode desativar ou gerenciar os mesmos, caso queira.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal LOGIN-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content login">
+          <div class="modal-header login">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body login">
+            <form action="#" class="form-login">
+              <input type="text" placeholder="Nome de usuário">
+              <input type="password" placeholder="Senha">
+            </form>
+          </div>
+          <div class="modal-footer login">
+            <button type="button" class="btn btn-primary">ENTRAR</button>
+            <a href="#">
+              <p>Esqueci minha senha</p>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+referência rgb
+
+background #140505
+box grande #370b0b
+box pequeno #601212
+destaque vermelho #cf1d1d
+destaque verde #2db343

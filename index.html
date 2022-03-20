@@ -1,0 +1,3017 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latinbets</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="menu-superior">
+      <nav>
+        <div class="menu-superior-left">
+          <ul>
+            <div class="area-logo">
+              <li>
+                <a href="index.html">
+                  <img src="img/logo.png" alt="Latinbets" width="200px">
+                </a>
+              </li>
+            </div>
+            
+            <div class="categorias-superior">
+              <li>
+                <a href="#">Esportes</a>
+              </li>
+  
+              <li>
+                <a href="#">Ao vivo</a>
+              </li>
+      
+              <li>
+                <a href="#">Cassino</a>
+              </li>
+      
+              <li>
+                <a href="#">Cassino ao Vivo</a>
+              </li>
+      
+              <li>
+                <a href="#">Promoções</a>
+              </li>
+            
+            </div> 
+          </ul>
+        </div>
+        
+        <div class="menu-superior-right user-off" style="display: none;">
+          <div>
+            <a href="#" class="btn-login" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Entrar
+            </a>
+          </div>
+          <div>
+            <a href="cadastro.html" class="btn-cadastro">
+              Cadastrar
+            </a>
+          </div>
+        </div>
+        
+        <div class="menu-superior-right user-on" style="display: flex;">
+  
+          <div class="mensagens">
+            <a href="#">
+              <img src="img/ícones/mensagem.png" alt="Mensagens" width="20px">
+              <p>Mensagens</p>
+            </a>
+          </div>
+          
+          <div class="perfil">
+            <li>
+              <a href="#">
+                <img src="img/ícones/profile.png" alt="Saldo" width="20px">
+                <p>R$ 0,00</p>
+              </a>
+            </li>
+
+            <div class="submenu-drop">
+              <a href="meusdados.html"><p>Meus Dados</p></a>
+              <a href="deposito.html"><p>Depositar</p></a>
+              <a href="saque.html"><p>Sacar</p></a>
+              <a href="caixa.html"><p>Caixa</p></a>
+              <a href="extrato.html"><p>Extrato</p></a>
+            </div>
+          </div>
+
+          <div class="deposito">
+            <a href="deposito.html" class="btn-deposito">
+              Depósito
+            </a>
+          </div>
+        </div> 
+      </nav>
+    </div>
+
+    <div class="menu-inferior">
+      <nav>
+        <div class="btn-group mobile" style="display: none;">
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            MENU
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#">Página Inicial</a>
+            </li>
+            <li>
+              <a href="#">Ao Vivo</a>
+            </li>
+            <li>
+              <a href="#">Minha Múltipla</a>
+            </li>
+            <li>
+              <a href="#">Procurar</a>
+            </li>
+            <li>
+              <a href="#">Favoritos</a>
+            </li>
+            <li>
+              <a href="#">Minhas Apostas</a>
+            </li>
+          </ul>
+        </div>
+        <div class="categorias-inferior">
+          <li class="item-inferior selected">
+            <a href="#">
+              <img src="img/ícones/latinbets-icone.png" alt="Página Inicial" width="18px">
+              <span>Página Inicial</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/ao vivo.png" alt="Ao vivo" width="20px">
+              <span>Ao Vivo</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/minha-multipla.png" alt="Minha Múltipla" width="18px">
+              <span>Minha Múltipla</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/futebol.png" alt="Futebol" width="18px">
+              <span>Futebol</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/tênis.png" alt="Tênis" width="18px">
+              <span>Tênis</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/basquete.png" alt="Basquete" width="18px">
+              <span>Basquete</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/voleibol.png" alt="Voleibol" width="18px">
+              <span>Voleibol</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/futebol-americano.png" alt="Futebol Americano" width="18px">
+              <span>Futebol Americano</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/fórmula-1.png" alt="Fórmula 1" width="18px">
+              <span>Fórmula 1</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/corrida-de-cavalos.png" alt="Corrida de Cavalos" width="20px">
+              <span>Corrida de Cavalo</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/a-z.png" alt="Esportes de A a Z" width="18px">
+              <span>A-Z Esportes</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/virtuais.png" alt="Virtuais" width="18px">
+              <span>Virtuais</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/procurar.png" alt="Procurar" width="18px">
+              <span>Procurar</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/favorito-1.png" alt="Favoritos" width="18px">
+              <span>Favoritos</span>
+            </a>
+          </li>
+
+          <li class="item-inferior ">
+            <a href="#">
+              <img src="img/ícones/profile_2.png" alt="Minhas Apostas" width="18px">
+              <span>Minhas Apostas</span>
+            </a>
+          </li>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="box-top">
+    <div style="display: flex;">
+      <div class="box-multipla">
+        <div>
+          <img src="img/banners/banner_3.png" alt="Múltipla Melhorada" width="280px">
+        </div>
+      </div>
+  
+      <div class="jogos-section">
+        <div class="jogos-section-item">
+          <div class="jogos-section-item-superior">
+
+            <div>
+              <p>Hoje</p>
+              <p>17:00</p>
+            </div>
+
+            <div>
+              <a href="#">
+                <img src="img/ícones/youtube.png" width="20px">
+              </a>
+            </div>
+
+          </div>
+
+          <div class="jogos-section-item-meio">
+            <span>Inter de Milão</span>
+            <img src="img/ícones/vs.png" width="20px">
+            <span>Salernitana</span>
+          </div>
+
+          <div class="jogos-section-item-inferior">
+              <a href="#">
+                <p>1</p>
+                <p class="p-odd">1.17</p>
+              </a>
+            
+              <a href="#">
+                <p>x</p>
+                <p class="p-odd">7.80</p>
+              </a>
+
+              <a href="#">
+                <p>2</p>
+                <p class="p-odd">13.50</p>
+              </a>
+          </div>
+
+        </div>
+
+        <div class="jogos-section-item">
+          <div class="jogos-section-item-superior">
+
+            <div>
+              <p>Hoje</p>
+              <p>17:00</p>
+            </div>
+
+            <div>
+              <a href="#">
+                <img src="img/ícones/youtube.png" width="20px">
+              </a>
+            </div>
+
+          </div>
+
+          <div class="jogos-section-item-meio">
+            <span>Inter de Milão</span>
+            <img src="img/ícones/vs.png" width="20px">
+            <span>Salernitana</span>
+          </div>
+
+          <div class="jogos-section-item-inferior">
+              <a href="#">
+                <p>1</p>
+                <p class="p-odd">1.17</p>
+              </a>
+            
+              <a href="#">
+                <p>x</p>
+                <p class="p-odd">7.80</p>
+              </a>
+
+              <a href="#">
+                <p>2</p>
+                <p class="p-odd">13.50</p>
+              </a>
+          </div>
+
+        </div>
+
+        <div class="jogos-section-item">
+          <div class="jogos-section-item-superior">
+
+            <div>
+              <p>Hoje</p>
+              <p>17:00</p>
+            </div>
+
+            <div>
+              <a href="#">
+                <img src="img/ícones/youtube.png" width="20px">
+              </a>
+            </div>
+
+          </div>
+
+          <div class="jogos-section-item-meio">
+            <span>Inter de Milão</span>
+            <img src="img/ícones/vs.png" width="20px">
+            <span>Salernitana</span>
+          </div>
+
+          <div class="jogos-section-item-inferior">
+              <a href="#">
+                <p>1</p>
+                <p class="p-odd">1.17</p>
+              </a>
+            
+              <a href="#">
+                <p>x</p>
+                <p class="p-odd">7.80</p>
+              </a>
+
+              <a href="#">
+                <p>2</p>
+                <p class="p-odd">13.50</p>
+              </a>
+          </div>
+
+        </div>
+
+        <div class="jogos-section-item">
+          <div class="jogos-section-item-superior">
+
+            <div>
+              <p>Hoje</p>
+              <p>17:00</p>
+            </div>
+
+            <div>
+              <a href="#">
+                <img src="img/ícones/youtube.png" width="20px">
+              </a>
+            </div>
+
+          </div>
+
+          <div class="jogos-section-item-meio">
+            <span>Inter de Milão</span>
+            <img src="img/ícones/vs.png" width="20px">
+            <span>Salernitana</span>
+          </div>
+
+          <div class="jogos-section-item-inferior">
+              <a href="#">
+                <p>1</p>
+                <p class="p-odd">1.17</p>
+              </a>
+            
+              <a href="#">
+                <p>x</p>
+                <p class="p-odd">7.80</p>
+              </a>
+
+              <a href="#">
+                <p>2</p>
+                <p class="p-odd">13.50</p>
+              </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="conteudo-right">
+      <div>
+        <div class="barra-assista">
+          <div>
+            <p>Assista</p>
+          </div>
+  
+          <div>
+  
+            <a href="#">
+              <img src="img/ícones/youtube.png" class="item-assista " width="18px">
+            </a>
+  
+            <a href="#">
+              <img src="img/ícones/campo.png" class="item-assista " width="18px">
+            </a>
+  
+            <a href="#">
+              <img src="img/ícones/gráfico.png" class="item-assista selected" width="18px">
+            </a>
+  
+            <a href="#">
+              <img src="img/ícones/seta-2-baixo.png" class="item-assista " width="18px">
+            </a>
+  
+          </div>
+        </div>
+  
+        <div class="cupom-aposta">
+          <div class="title-cupom-aposta">
+              <a href="#">Cupom</a>
+              <div class="barra-cupom"></div>
+              <a href="#">Minhas Apostas</a>
+          </div>
+  
+          <div class="info-cupom-aposta">
+            <div>
+              <img src="img/ícones/informação.png" width="18px" alt="Informações Aposta">
+              <span class="p-title cupom-aposta">Nenhuma aposta selecionada!</span>
+            </div>
+            <span class="p-subtitle cupom-aposta">Selecione suas apostas em nosso site tocando nas cotas.</span>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="banner-right">
+        <img src="img/banners/banner_3.png" alt="Múltipla Melhorada" width="240px">
+      </div> 
+    </div>
+
+  </section>
+
+  <main style="display: flex;">
+    <div class="menu-left">
+      <div>
+        <img src="img/banners/banner_2.png" alt="Jogo Responsável" width="100%">
+      </div>
+
+      <ul class="menu-destaques">
+        <li class="title-menu-destaques">
+          <p>Destaques</p>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/ícones/calendário de esportes.png" width="17px">
+            Calendário de Esportes
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol.png" width="17px">
+            Futebol Europeu
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol.png" width="17px">
+            Copa do Brasil
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/basquete.png" width="17px">
+            NBA
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/tênis.png" width="17px">
+            Tênis
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/e-sports.png" width="17px">
+            eSports
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/minha-multipla.png" width="17px">
+            Cotas Aumentadas
+          </a>
+        </li>
+
+        <li>
+          <a href="#" style="border: none;">
+            <img src="img/ícones/criar-apostas.png" width="15px">
+            Criar Apostas
+          </a>
+        </li>
+      </ul>
+
+      <ul class="menu-principais-esportes">
+        <li class="title-menu-destaques">
+          <p>Principais Esportes</p>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol.png" width="17px">
+            Futebol
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/tênis.png" width="17px">
+            Tênis
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/basquete.png" width="17px">
+            Basquete
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/voleibol.png" width="17px">
+            Voleibol
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol-americano.png" width="17px">
+            Futebol Americano
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/fórmula-1.png" width="17px">
+            Fórmula 1
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/artes-marciais.png" width="17px">
+            Esportes de Combate
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/baseball.png" width="17px">
+            Baseball
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/handebol.png" width="17px">
+            Handebol
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <img src="img/ícones/hóquei.png" width="17px">
+            Hóquei no gelo
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/boxe.png" width="17px">
+            Boxe
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/entretenimento.png" width="17px">
+            Entretenimento
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/política.png" width="17px">
+            Política
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/tênis-de-mesa.png" width="17px">
+            Tênis de Mesa
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/golfe.png" width="17px">
+            Golfe
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/dardos.png" width="17px">
+            Dardos
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/nascar.png" width="17px">
+            Nascar
+          </a>
+        </li>
+
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/snooker.png" width="17px">
+            Snooker
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/criquete.png" width="17px">
+            Críquete
+          </a>
+        </li>
+
+        <p class="p-az">A-Z Esportes</p>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/bandy_e_floorball.png" width="17px">
+            Bandy
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/baseball.png" width="17px">
+            Baseball
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/basquete.png" width="17px">
+            Basquete
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/basquete.png" width="17px">
+            Basquete Virtual
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/boxe.png" width="17px">
+            Boxe
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/ciclismo.png" width="17px">
+            Ciclismo
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/corrida-de-cavalos.png" width="17px">
+            Crorridas de Cavalo
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/criquete.png" width="17px">
+            Críquete
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/curling.png" width="17px">
+            Curling
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/dardos.png" width="17px">
+            Dardos
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/entretenimento.png" width="17px">
+            Entretenimento
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/artes-marciais.png" width="17px">
+            Esportes de Combate
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/esportes_gaélicos.png" width="17px">
+            Esportes Gaélico
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/bandy_e_floorball.png" width="17px">
+            Floorball
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/fórmula-1.png" width="17px">
+            Fórmula 1
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol.png" width="17px">
+            FFutebol
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol-americano.png" width="17px">
+            Futebol Americano
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol-americano.png" width="17px">
+            Futebol Americano Virtual
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol.png" width="17px">
+            Futebol Virtual
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/golfe.png" width="17px">
+            Golfe
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/handebol.png" width="17px">
+            Handebol
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/hóquei.png" width="17px">
+            Hóquei no Gelo
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/nascar.png" width="17px">
+            Nascar
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol-americano.png" width="17px">
+            Rugby
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol-americano.png" width="17px">
+            Rugby League
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/futebol-americano.png" width="17px">
+            Rugby Union
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/snooker.png" width="17px">
+            Snooker
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/tênis.png" width="17px">
+            Tênis
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/tênis-de-mesa.png" width="17px">
+            Tênis de Mesa
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/tênis.png" width="17px">
+            Tênis Virtual
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <img src="img/ícones/voleibol.png" width="17px">
+            Voleibol
+          </a>
+        </li>
+
+        <li>
+          <a href="#" style="border: none;">
+            <img src="img/ícones/xadrez.png" width="17px">
+            Xadrez
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="conteudo-center" style="display: block;">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banners/banner_1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banners/banner_1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banners/banner_1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="proximos-eventos">
+        <p class="title-pe">Próximo Eventos Ao Vivo</p>
+
+        <div class="border-pe"></div>
+
+        <div class="box-proximos-eventos">
+
+          <div class="item-box">
+            <a href="#">
+              <div>
+                <img src="img/ícones/futebol.png" width="15px">
+                <span>14:30</span>
+              </div>
+  
+              <p>Holstein Kiel</p>
+              <p>SC Paderborn 07</p> 
+            </a>
+          </div>
+
+          <div class="item-box">
+            <a href="#">
+              <div>
+                <img src="img/ícones/futebol.png" width="15px">
+                <span>16:30</span>
+              </div>
+  
+              <p>Vitese</p>
+              <p>Sparta Rotterdam</p> 
+            </a>
+          </div>
+
+          <div class="item-box">
+            <a href="#">
+              <div>
+                <img src="img/ícones/futebol.png" width="15px">
+                <span>17:30</span>
+              </div>
+  
+              <p>FC Copenhaga</p>
+              <p>Randers FC</p> 
+            </a>
+          </div>
+
+          <div class="item-box">
+            <a href="#">
+              <div>
+                <img src="img/ícones/futebol.png" width="15px">
+                <span>18:30</span>
+              </div>
+  
+              <p>Shefield United</p>
+              <p>X</p>
+              <p>Nottingham Forest</p> 
+            </a>
+          </div>
+
+          <div class="item-box">
+            <a href="#">
+              <div>
+                <img src="img/ícones/futebol.png" width="15px">
+                <span>19:30</span>
+              </div>
+  
+              <p>Hudersfield</p>
+              <p>X</p>
+              <p>Peterbourough</p> 
+            </a>
+          </div>
+
+          <div class="item-box">
+            <a href="#">
+              <div>
+                <img src="img/ícones/futebol.png" width="15px">
+                <span>19:30</span>
+              </div>
+  
+              <p>Hudersfield</p>
+              <p>X</p>
+              <p>Peterbourough</p> 
+            </a>
+          </div>
+
+          <div class="item-box">
+            <a href="#">
+              <div>
+                <img src="img/ícones/futebol.png" width="15px">
+                <span>19:30</span>
+              </div>
+  
+              <p>Hudersfield</p>
+              <p>X</p>
+              <p>Peterbourough</p> 
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="destaques-aovivo">
+        <p class="title-pe">Destaques ao vivo</p>
+        <div class="categorias-aovivo1">
+          <ul>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/futebol.png" alt="Futebol" width="15px">
+                <span class="destaque_selected">Futebol</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/tênis.png" alt="Tênis" width="15px">
+                <span>Tênis</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/tênis-de-mesa.png" alt="Tênis de Mesa" width="15px">
+                <span>Tênis de Mesa</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/voleibol.png" alt="Voleibol" width="15px">
+                <span>Voleibol</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/basquete.png" alt="Basquete" width="15px">
+                <span>Basquete</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/handebol.png" alt="Handebol" width="15px">
+                <span>Handebol</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/hóquei.png" alt="Hóquei no gelo" width="15px">
+                <span>Hóquei no gelo</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/voleibol.png" alt="Vôlei de Praia" width="15px">
+                <span>Volei de Praia</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/golfe.png" alt="Golfe" width="15px">
+                <span>Golfe</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo1">
+              <a href="#">
+                <img src="img/ícones/bandminton.png" alt="Badminton" width="15px">
+                <span>Badminton</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="barra-aovivo"></div>
+
+        <div class="categorias-aovivo2">
+          <ul>
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/futebol.png" alt="Futebol" width="15px">
+                <span>Futebol</span>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <select name="#" id="#">
+                <option selected style="color: #000;">Resultado 1 x 2</option>
+                <option value="1" style="color: #000;">One</option>
+                <option value="2" style="color: #000;">Two</option>
+                <option value="3" style="color: #000;">Three</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+
+        <div class="barra-aovivo"></div>
+        
+        <div class="odds_open">
+              <table class="odds_table">
+                <tbody>
+                  <tr class="title_tr title_tr_bt">
+                      <td class="slt_holder" colspan="2"></td>
+                      
+                      <td></td>
+                  </tr>
+                  <tr class="title_tr title_tr_sel">
+                      <td class="slt_holder" colspan="2"></td>
+                      <td class="bts_sp_l"></td>
+                      <td class="bts_sp_l"></td>
+                      <td class="h_bt_sel "><span title="1">1</span></td>
+                      
+                      <td class="h_bt_sel "><span title="X">X</span></td>
+                      
+                      <td class="h_bt_sel "><span title="2">2</span></td>
+                  </tr>
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>FC Tsarko Selo Sofia</span>
+                        <p>0</p>
+                      </div>
+                      <div class="times_placar">
+                        <span>FC CSKA 1948</span>
+                        <p>0</p>
+                      </div>
+                      <div class="row_aovivo">
+                        <span style="color: red;">AO VIVO </span><span>2ºT 67:18</span>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+  
+                        <a href="#">
+                          <img src="img/ícones/campo.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>FC Tsarko Selo Sofia</span>
+                        <p>0</p>
+                      </div>
+                      <div class="times_placar">
+                        <span>FC CSKA 1948</span>
+                        <p>0</p>
+                      </div>
+                      <div class="row_aovivo">
+                        <span style="color: red;">AO VIVO </span><span>2ºT 67:18</span>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+  
+                        <a href="#">
+                          <img src="img/ícones/campo.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>FC Tsarko Selo Sofia</span>
+                        <p>0</p>
+                      </div>
+                      <div class="times_placar">
+                        <span>FC CSKA 1948</span>
+                        <p>0</p>
+                      </div>
+                      <div class="row_aovivo">
+                        <span style="color: red;">AO VIVO </span><span>2ºT 67:18</span>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+  
+                        <a href="#">
+                          <img src="img/ícones/campo.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>FC Tsarko Selo Sofia</span>
+                        <p>0</p>
+                      </div>
+                      <div class="times_placar">
+                        <span>FC CSKA 1948</span>
+                        <p>0</p>
+                      </div>
+                      <div class="row_aovivo">
+                        <span style="color: red;">AO VIVO </span><span>2ºT 67:18</span>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+  
+                        <a href="#">
+                          <img src="img/ícones/campo.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>FC Tsarko Selo Sofia</span>
+                        <p>0</p>
+                      </div>
+                      <div class="times_placar">
+                        <span>FC CSKA 1948</span>
+                        <p>0</p>
+                      </div>
+                      <div class="row_aovivo">
+                        <span style="color: red;">AO VIVO </span><span>2ºT 67:18</span>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+  
+                        <a href="#">
+                          <img src="img/ícones/campo.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="box_todos_eventos">
+                <p>TODOS OS EVENTOS<span style="color: red; font-style: italic;"> FUTEBOL AO VIVO</span></p>
+                <a href="#">
+                  <span>25</span>
+                  <img src="img/ícones/seta-2.png" width="10px">
+                </a>
+              </div>
+
+        </div>
+
+      </div>
+
+      <div class="destaques-aovivo2">
+        <p class="title-pe">Destaques ao vivo</p>
+        <div class="categorias-aovivo1">
+          <ul>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/futebol.png" alt="Futebol" width="15px">
+                <span class="destaque_selected">Futebol</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/tênis.png" alt="Tênis" width="15px">
+                <span>Tênis</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/tênis-de-mesa.png" alt="Tênis de Mesa" width="15px">
+                <span>Tênis de Mesa</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/voleibol.png" alt="Voleibol" width="15px">
+                <span>Voleibol</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/basquete.png" alt="Basquete" width="15px">
+                <span>Basquete</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/handebol.png" alt="Handebol" width="15px">
+                <span>Handebol</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/hóquei.png" alt="Hóquei no gelo" width="15px">
+                <span>Hóquei no gelo</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/voleibol.png" alt="Vôlei de Praia" width="15px">
+                <span>Volei de Praia</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/golfe.png" alt="Golfe" width="15px">
+                <span>Golfe</span>
+              </a>
+            </li>
+
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/bandminton.png" alt="Badminton" width="15px">
+                <span>Badminton</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="barra-aovivo"></div>
+
+        <div class="categorias-aovivo2">
+          <ul>
+            <li class="item-destaques-aovivo2">
+              <a href="#">
+                <img src="img/ícones/futebol.png" alt="Futebol" width="15px">
+                <span>Futebol</span>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <select name="#" id="#">
+                <option selected style="color: #000;">Resultado 1 x 2</option>
+                <option value="1" style="color: #000;">One</option>
+                <option value="2" style="color: #000;">Two</option>
+                <option value="3" style="color: #000;">Three</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+
+        <div class="barra-aovivo"></div>
+        
+        <div class="odds_open">
+              <table class="odds_table">
+                <tbody>
+                  <tr class="title_tr title_tr_bt">
+                      <td class="slt_holder" colspan="2"></td>
+                      
+                      <td></td>
+                  </tr>
+                  <tr class="title_tr title_tr_sel">
+                      <td class="slt_holder" colspan="2"></td>
+                      <td class="bts_sp_l"></td>
+                      <td class="bts_sp_l"></td>
+                      <td class="h_bt_sel "><span title="1">1</span></td>
+                      
+                      <td class="h_bt_sel "><span title="X">X</span></td>
+                      
+                      <td class="h_bt_sel "><span title="2">2</span></td>
+                  </tr>
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>Tombense</span>
+                      </div>
+                      <div class="times_placar">
+                        <span>Uberlândia</span>
+                      </div>
+                      <div class="row_aovivo">
+                        <span>Hoje / 16:00</span>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+
+                    <td class="odd_favorito">
+                      <a href="#">
+                        <img src="img/ícones/favorito-2.png" width="12px">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>América-MG</span>
+                      </div>
+                      <div class="times_placar">
+                        <span>Vila Nova</span>
+                      </div>
+                      <div class="row_aovivo">
+                        <span>Hoje / 16:30</span>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+
+                    <td class="odd_favorito">
+                      <a href="#">
+                        <img src="img/ícones/favorito-2.png" width="12px">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>Athletic Club</span>
+                      </div>
+                      <div class="times_placar">
+                        <span>URT</span>
+                      </div>
+                      <div class="row_aovivo">
+                        <span>Hoje / 15:00</span>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+
+                    <td class="odd_favorito">
+                      <a href="#">
+                        <img src="img/ícones/favorito-2.png" width="12px">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>Athletic Club</span>
+                      </div>
+                      <div class="times_placar">
+                        <span>URT</span>
+                      </div>
+                      <div class="row_aovivo">
+                        <div style="margin-right: 5px;">
+                          <span>Hoje / 15:00</span>
+                        </div>
+                        <div>
+                          <a href="#">
+                            <p class="criar-aposta">criar aposta</p>
+                          </a>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+
+                    <td class="odd_favorito">
+                      <a href="#">
+                        <img src="img/ícones/favorito-2.png" width="12px">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>Athletic Club</span>
+                      </div>
+                      <div class="times_placar">
+                        <span>URT</span>
+                      </div>
+                      <div class="row_aovivo">
+                        <span>Hoje / 15:00</span>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+
+                    <td class="odd_favorito">
+                      <a href="#">
+                        <img src="img/ícones/favorito-2.png" width="12px">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>Athletic Club</span>
+                      </div>
+                      <div class="times_placar">
+                        <span>URT</span>
+                      </div>
+                      <div class="row_aovivo">
+                        <div style="margin-right: 5px;">
+                          <span>Hoje / 15:00</span>
+                        </div>
+                        <div>
+                          <a href="#">
+                            <p class="criar-aposta">criar aposta</p>
+                          </a>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+
+                    <td class="odd_favorito">
+                      <a href="#">
+                        <img src="img/ícones/favorito-2.png" width="12px">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>Athletic Club</span>
+                      </div>
+                      <div class="times_placar">
+                        <span>URT</span>
+                      </div>
+                      
+                      <div class="row_aovivo">
+                        <div style="margin-right: 5px;">
+                          <span>Começando em</span><span style="color: red;"> 13 min</span>
+                        </div>
+                        <div>
+                          <a href="#">
+                            <p class="criar-aposta">criar aposta</p>
+                          </a>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+
+                    <td class="odd_favorito">
+                      <a href="#">
+                        <img src="img/ícones/favorito-2.png" width="12px">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr class="odds_tr">
+                    <td class="times_odd">
+                      <div class="times_placar">
+                        <span>Athletic Club</span>
+                      </div>
+                      <div class="times_placar">
+                        <span>URT</span>
+                      </div>
+                      <div class="row_aovivo">
+                        <div style="margin-right: 5px;">
+                          <span>Hoje / 15:00</span>
+                        </div>
+                        <div>
+                          <a href="#">
+                            <p class="criar-aposta">criar aposta</p>
+                          </a>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td class="bts_sp_l"></td>
+                    <td class="bts_sp_l"></td>
+                    
+                    <td class="btns_aovivo">
+                      <div>
+                        <a href="#">
+                          <img src="img/ícones/gráfico.png" width="18px">
+                        </a>
+                      </div>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">8.00</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-vermelho"></div>
+                        <a href="#"><span class="odd">1.75</span></a>
+                    </td>
+                
+                    <td class="ev_sel_odd">
+                        <div class="detalhe-verde"></div>
+                        <a href="#"><span class="odd">2.40</span></a>
+                    </td>
+
+                    <td class="odd_favorito">
+                      <a href="#">
+                        <img src="img/ícones/favorito-2.png" width="12px">
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="box_todos_eventos">
+                <p>ABRIR LOBBY DE FUTEBOL</p>
+                <a href="#">
+                  <span>1349</span>
+                  <img src="img/ícones/seta-2.png" width="10px">
+                </a>
+              </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="conteudo-center2" style="display: none;">
+      <div class="body2">
+        <div class="header-body2" style="display: none;">
+          <div>
+            <p>26/02/2022 <span>12:20</span></p>
+            <p>Futeebol / Italia - Série B</p>
+            <p><span>PERUGIA CALCIO SPA</span> - <span>BENEVENTO</span></p>
+          </div>
+          <div>
+            <a href="#">X</a>
+          </div>
+        </div>
+    
+        <div class="header-ao-vivo">
+          <table class="table table-striped table-dark campo-odd">
+            <thead>
+              <tr>
+                <td class="titulo-odd">Tempo: 90"</td>
+                <td> <img src="img/icon/cartao-amarelo.png" style="width: 25px;"> </td>
+                <td> <img src="img/icon/cartao-vermelho.png" style="width: 25px;"> </td>
+                <td> <img src="img/icon/substituicoes.png" style="width: 25px;"> </td>
+                <td> <img src="img/icon/bola-de-futebol.png" style="width: 25px;"> </td>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>Vizela FC</p>
+                    </td>
+                    <td class="modal-odd-at">
+                        <p>2</p>
+                    </td>
+                    <td class="modal-odd-at">
+                        <p>0</p>
+                    </td>
+                    <td class="modal-odd-at">
+                        <p>5</p>
+                    </td>
+                    <td class="modal-odd-at">
+                        <p>0</p>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <p>Gil Vicente FC</p>
+                    </td>
+                    <td class="modal-odd-at">
+                        <p>2</p>
+                    </td>
+                    <td class="modal-odd-at">
+                        <p>0</p>
+                    </td>
+                    <td class="modal-odd-at">
+                        <p>3</p>
+                    </td>
+                    <td class="modal-odd-at">
+                        <p>1</p>
+                    </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+    
+        <div class="grupo-de-links">
+          <div>
+            <a href="#">
+              <p class="link-item selected">Tudo</p>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <p class="link-item">Padrão</p>
+              </a>
+          </div>
+          <div>
+            <a href="#" class="link-item">
+              <p class="link-item">Principal</p>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="link-item">
+              <p class="link-item">Acima/Abaixo</p>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="link-item">
+              <p class="link-item">Asiático</p>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <p class="link-item">GG/NG</p>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <p class="link-item">Casa</p>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <p class="link-item">Visitante</p>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <p class="link-item">Combo</p>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <p class="link-item">Multigols</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="table-options">
+          <ul class="list-group">
+    
+                <li class="list-group-item btn-dark betNameList">Vencedor do Encontro</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                  <a class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC"> Casa <span class="pull-right">2.40</span></a>
+    
+                  <a class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-bet="Vencedor do Encontro">Empate <span class="pull-right">3.50</span></a>
+    
+                  <a class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-bet="Vencedor do Encontro">Visitante <span class="pull-right">2.45</span></a>
+                  </div>
+                </li>
+    
+                <li class="list-group-item btn-dark betNameList">Total de gols no jogo</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC">Mais de 2.5 <span class="pull-right">1.62</span></a>
+                
+                    <a class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC">Menos de 2.5 <span class="pull-right">2.25</span></a>
+                
+                    <a class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC">Mais de 0.5 <span class="pull-right">0.00</span></a>
+                
+                    <a class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC">Mais de 1.5 <span class="pull-right">0.00</span></a>
+    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.50" data-choice="Mais de 3.5" data-bet="Total de gols no jogo" data-id="025462590226514" data-match="115620205">Mais de 3.5 <span class="pull-right">2.50</span></a>
+                
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.33" data-choice="Mais de 4.5" data-bet="Total de gols no jogo" data-id="912458034335203" data-match="115620205">Mais de 4.5 <span class="pull-right">4.33</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="9.00" data-choice="Mais de 5.5" data-bet="Total de gols no jogo" data-id="048582248167481" data-match="115620205">Mais de 5.5 <span class="pull-right">9.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="19.00" data-choice="Mais de 6.5" data-bet="Total de gols no jogo" data-id="352580754012331" data-match="115620205">Mais de 6.5 <span class="pull-right">19.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="34.00" data-choice="Mais de 7.5" data-bet="Total de gols no jogo" data-id="474412227120252" data-match="115620205">Mais de 7.5 <span class="pull-right">34.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="17.00" data-choice="Menos de 0.5" data-bet="Total de gols no jogo" data-id="156800055258414" data-match="115620205">Menos de 0.5 <span class="pull-right">17.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.50" data-choice="Menos de 1.5" data-bet="Total de gols no jogo" data-id="012530930163656" data-match="115620205">Menos de 1.5 <span class="pull-right">4.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.50" data-choice="Menos de 3.5" data-bet="Total de gols no jogo" data-id="620342386529504" data-match="115620205">Menos de 3.5 <span class="pull-right">1.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Menos de 4.5" data-bet="Total de gols no jogo" data-id="867519920619492" data-match="115620205">Menos de 4.5 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Menos de 5.5" data-bet="Total de gols no jogo" data-id="306390920183633" data-match="115620205">Menos de 5.5 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Menos de 6.5" data-bet="Total de gols no jogo" data-id="342122131405655" data-match="115620205">Menos de 6.5 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Menos de 7.5" data-bet="Total de gols no jogo" data-id="512464914212551" data-match="115620205">Menos de 7.5 <span class="pull-right">0.00</span></a>
+                  </div>
+                </li>
+              
+                <li class="list-group-item btn-dark betNameList">Ambas equipes marcam</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.50" data-choice="Sim" data-bet="Ambas equipes marcam" data-id="253265615452473" data-match="115620205">Sim <span class="pull-right">1.50</span></a>
+    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.50" data-choice="Não" data-bet="Ambas equipes marcam" data-id="241459099113230" data-match="115620205">Não <span class="pull-right">2.50</span></a>
+                  </div>
+                </li>
+    
+                <li class="list-group-item btn-dark betNameList">Handicap de Gol</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="23.00" data-choice="Handicap de Gol (Casa) -3" data-bet="Handicap de Gol" data-id="792545104759490" data-match="115620205">Handicap de Gol (Casa) -3 <span class="pull-right">23.00</span></a>
+    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="9.50" data-choice="Handicap de Gol (Casa) -2" data-bet="Handicap de Gol" data-id="114234285151203" data-match="115620205">Handicap de Gol (Casa) -2 <span class="pull-right">9.50</span></a>
+    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.50" data-choice="Handicap de Gol (Casa) +1" data-bet="Handicap de Gol" data-id="030254710115627" data-match="115620205">Handicap de Gol (Casa) +1 <span class="pull-right">1.50</span></a>
+    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Handicap de Gol (Casa) +2" data-bet="Handicap de Gol" data-id="114920855143926" data-match="115620205">Handicap de Gol (Casa) +2 <span class="pull-right">0.00</span></a>
+    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Handicap de Gol (Visitante) +3" data-bet="Handicap de Gol" data-id="050572583501819" data-match="115620205">Handicap de Gol (Visitante) +3 <span class="pull-right">0.00</span></a>
+    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Handicap de Gol (Visitante) +2" data-bet="Handicap de Gol" data-id="999743614940811" data-match="115620205">Handicap de Gol (Visitante) +2 <span class="pull-right">0.00</span></a>
+    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.75" data-choice="Handicap de Gol (Visitante) -1" data-bet="Handicap de Gol" data-id="858515220305106" data-match="115620205">Handicap de Gol (Visitante) -1 <span class="pull-right">4.75</span></a>
+    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="10.00" data-choice="Handicap de Gol (Visitante) -2" data-bet="Handicap de Gol" data-id="027042552901146" data-match="115620205">Handicap de Gol (Visitante) -2 <span class="pull-right">10.00</span></a>
+              
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.50" data-choice="Handicap de Gol (Casa) -1" data-bet="Handicap de Gol" data-id="329105576110091" data-match="115620205">Handicap de Gol (Casa) -1 <span class="pull-right">4.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.50" data-choice="Handicap de Gol (Visitante) +1" data-bet="Handicap de Gol" data-id="772539188541231" data-match="115620205">Handicap de Gol (Visitante) +1 <span class="pull-right">1.50</span></a>
+                  </div>
+                </li>
+              
+                <li class="list-group-item btn-dark betNameList">Dupla possibilidade</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.50" data-choice="Equipe 1 ou empate" data-bet="Dupla possibilidade" data-id="113455215262000" data-match="115620205">Equipe 1 ou empate <span class="pull-right">1.50</span></a>
+              
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.50" data-choice="Equipe 2 ou empate" data-bet="Dupla possibilidade" data-id="922312311150541" data-match="115620205">Equipe 2 ou empate <span class="pull-right">1.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.25" data-choice="Equipe 1 ou Equipe 2" data-bet="Dupla possibilidade" data-id="210221213330210" data-match="115620205">Equipe 1 ou Equipe 2 <span class="pull-right">1.25</span></a>
+                  </div>
+                </li>
+    
+                <li class="list-group-item btn-dark betNameList">Handicap Asiático</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                      <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.83" data-choice="Casa +0" data-bet="Handicap Asiático" data-id="748232478241820" data-match="115620205">Casa +0 <span class="pull-right">1.83</span></a>
+    
+                      <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.98" data-choice="Visitante +0" data-bet="Handicap Asiático" data-id="933180151740338" data-match="115620205">Visitante +0 <span class="pull-right">1.98</span></a>
+                
+                      <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.00" data-choice="Casa -1" data-bet="Handicap Asiático" data-id="204054292106879" data-match="115620205">Casa -1 <span class="pull-right">1.00</span></a>
+                      
+                      <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.23" data-choice="Casa +1" data-bet="Handicap Asiático" data-id="150149630445924" data-match="115620205">Casa +1 <span class="pull-right">1.23</span></a>
+                      
+                      <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.26" data-choice="Visitante +1" data-bet="Handicap Asiático" data-id="410019756041127" data-match="115620205">Visitante +1 <span class="pull-right">1.26</span></a>
+                      
+                      <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.10" data-choice="Visitante -1" data-bet="Handicap Asiático" data-id="223877022524133" data-match="115620205">Visitante -1 <span class="pull-right">4.10</span></a>
+                  </div>
+                </li>
+              
+                <li class="list-group-item btn-dark betNameList">Escanteios</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.38" data-choice="Acima de 10" data-bet="Escanteios" data-id="254391052083570" data-match="115620205">Acima de 10 <span class="pull-right">2.38</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="8.00" data-choice="Exatamente 10" data-bet="Escanteios" data-id="160000684260391" data-match="115620205">Exatamente 10 <span class="pull-right">8.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.83" data-choice="Abaixo de 10" data-bet="Escanteios" data-id="961780642014140" data-match="115620205">Abaixo de 10 <span class="pull-right">1.83</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="10.00" data-choice="Abaixo de 6" data-bet="Escanteios" data-id="737245020574408" data-match="115620205">Abaixo de 6 <span class="pull-right">10.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.10" data-choice="Entre 6 e 8" data-bet="Escanteios" data-id="248137432401344" data-match="115620205">Entre 6 e 8 <span class="pull-right">3.10</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.63" data-choice="Entre 9 e 11" data-bet="Escanteios" data-id="550203362054143" data-match="115620205">Entre 9 e 11 <span class="pull-right">2.63</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.33" data-choice="Entre 12 e 14" data-bet="Escanteios" data-id="454992606125391" data-match="115620205">Entre 12 e 14 <span class="pull-right">4.33</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="10.00" data-choice="Acima de 14" data-bet="Escanteios" data-id="243870241822872" data-match="115620205">Acima de 14 <span class="pull-right">10.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Acima de 3" data-bet="Escanteios" data-id="246573508889835" data-match="115620205">Acima de 3 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Acima de 4" data-bet="Escanteios" data-id="114803705273445" data-match="115620205">Acima de 4 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Acima de 5" data-bet="Escanteios" data-id="302386414140542" data-match="115620205">Acima de 5 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Acima de 6" data-bet="Escanteios" data-id="234464390723710" data-match="115620205">Acima de 6 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.29" data-choice="Acima de 7" data-bet="Escanteios" data-id="251191643343008" data-match="115620205">Acima de 7 <span class="pull-right">1.29</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.50" data-choice="Acima de 8" data-bet="Escanteios" data-id="740042481252475" data-match="115620205">Acima de 8 <span class="pull-right">1.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="34.00" data-choice="Exatamente 3" data-bet="Escanteios" data-id="130388068760064" data-match="115620205">Exatamente 3 <span class="pull-right">34.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="21.00" data-choice="Exatamente 4" data-bet="Escanteios" data-id="102623237531872" data-match="115620205">Exatamente 4 <span class="pull-right">21.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="15.00" data-choice="Exatamente 5" data-bet="Escanteios" data-id="576428258703520" data-match="115620205">Exatamente 5 <span class="pull-right">15.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="11.00" data-choice="Exatamente 6" data-bet="Escanteios" data-id="334040115259257" data-match="115620205">Exatamente 6 <span class="pull-right">11.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="9.00" data-choice="Exatamente 7" data-bet="Escanteios" data-id="510262436083450" data-match="115620205">Exatamente 7 <span class="pull-right">9.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="8.00" data-choice="Exatamente 8" data-bet="Escanteios" data-id="331151596427104" data-match="115620205">Exatamente 8 <span class="pull-right">8.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Abaixo de 3" data-bet="Escanteios" data-id="427511544109493" data-match="115620205">Abaixo de 3 <span class="pull-right">41.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="26.00" data-choice="Abaixo de 4" data-bet="Escanteios" data-id="439015497976355" data-match="115620205">Abaixo de 4 <span class="pull-right">26.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="17.00" data-choice="Abaixo de 5" data-bet="Escanteios" data-id="133100951422135" data-match="115620205">Abaixo de 5 <span class="pull-right">17.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.50" data-choice="Abaixo de 7" data-bet="Escanteios" data-id="462392160503780" data-match="115620205">Abaixo de 7 <span class="pull-right">5.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.50" data-choice="Abaixo de 8" data-bet="Escanteios" data-id="621500242124344" data-match="115620205">Abaixo de 8 <span class="pull-right">3.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.83" data-choice="Acima de 9" data-bet="Escanteios" data-id="000429496054835" data-match="115620205">Acima de 9 <span class="pull-right">1.83</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.40" data-choice="Acima de 11" data-bet="Escanteios" data-id="455925922824447" data-match="115620205">Acima de 11 <span class="pull-right">3.40</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.50" data-choice="Acima de 12" data-bet="Escanteios" data-id="296338153395510" data-match="115620205">Acima de 12 <span class="pull-right">4.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="7.00" data-choice="Acima de 13" data-bet="Escanteios" data-id="550775561111459" data-match="115620205">Acima de 13 <span class="pull-right">7.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="13.00" data-choice="Acima de 15" data-bet="Escanteios" data-id="017400807126930" data-match="115620205">Acima de 15 <span class="pull-right">13.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="19.00" data-choice="Acima de 16" data-bet="Escanteios" data-id="052552253074270" data-match="115620205">Acima de 16 <span class="pull-right">19.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="26.00" data-choice="Acima de 17" data-bet="Escanteios" data-id="279424623235149" data-match="115620205">Acima de 17 <span class="pull-right">26.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="34.00" data-choice="Acima de 18" data-bet="Escanteios" data-id="410459155086545" data-match="115620205">Acima de 18 <span class="pull-right">34.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="8.00" data-choice="Exatamente 9" data-bet="Escanteios" data-id="023505543473223" data-match="115620205">Exatamente 9 <span class="pull-right">8.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="9.00" data-choice="Exatamente 11" data-bet="Escanteios" data-id="532372736741321" data-match="115620205">Exatamente 11 <span class="pull-right">9.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="11.00" data-choice="Exatamente 12" data-bet="Escanteios" data-id="293332023011313" data-match="115620205">Exatamente 12 <span class="pull-right">11.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="13.00" data-choice="Exatamente 13" data-bet="Escanteios" data-id="282341292134941" data-match="115620205">Exatamente 13 <span class="pull-right">13.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="17.00" data-choice="Exatamente 14" data-bet="Escanteios" data-id="114326363500718" data-match="115620205">Exatamente 14 <span class="pull-right">17.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="19.00" data-choice="Exatamente 15" data-bet="Escanteios" data-id="102232339524814" data-match="115620205">Exatamente 15 <span class="pull-right">19.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="23.00" data-choice="Exatamente 16" data-bet="Escanteios" data-id="034858005445898" data-match="115620205">Exatamente 16 <span class="pull-right">23.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="34.00" data-choice="Exatamente 17" data-bet="Escanteios" data-id="352233749410114" data-match="115620205">Exatamente 17 <span class="pull-right">34.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Exatamente 18" data-bet="Escanteios" data-id="043921245167103" data-match="115620205">Exatamente 18 <span class="pull-right">41.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.50" data-choice="Abaixo de 9" data-bet="Escanteios" data-id="850509254871334" data-match="115620205">Abaixo de 9 <span class="pull-right">2.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.53" data-choice="Abaixo de 11" data-bet="Escanteios" data-id="523833522943511" data-match="115620205">Abaixo de 11 <span class="pull-right">1.53</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.30" data-choice="Abaixo de 12" data-bet="Escanteios" data-id="450407822841686" data-match="115620205">Abaixo de 12 <span class="pull-right">1.30</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Abaixo de 13" data-bet="Escanteios" data-id="531345207448148" data-match="115620205">Abaixo de 13 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Abaixo de 14" data-bet="Escanteios" data-id="854456893071699" data-match="115620205">Abaixo de 14 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Abaixo de 15" data-bet="Escanteios" data-id="149273763335290" data-match="115620205">Abaixo de 15 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Abaixo de 16" data-bet="Escanteios" data-id="854214294987974" data-match="115620205">Abaixo de 16 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Abaixo de 17" data-bet="Escanteios" data-id="431354013142401" data-match="115620205">Abaixo de 17 <span class="pull-right">0.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Abaixo de 18" data-bet="Escanteios" data-id="325126421742862" data-match="115620205">Abaixo de 18 <span class="pull-right">0.00</span></a>
+                  </div>
+                </li>
+              
+                <li class="list-group-item btn-dark betNameList">Resultado e total de gols</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.50" data-choice="Casa - Mais de 2.5" data-bet="Resultado e total de gols" data-id="520924107012680" data-match="115620205">Casa - Mais de 2.5 <span class="pull-right">3.50</span></a>
+              
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.60" data-choice="Visitante - Mais de 2.5" data-bet="Resultado e total de gols" data-id="725040040115024" data-match="115620205">Visitante - Mais de 2.5 <span class="pull-right">3.60</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="9.50" data-choice="Empate - Mais de 2.5" data-bet="Resultado e total de gols" data-id="641463229211550" data-match="115620205">Empate - Mais de 2.5 <span class="pull-right">9.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="7.00" data-choice="Casa - Menos de 2.5" data-bet="Resultado e total de gols" data-id="225127254205705" data-match="115620205">Casa - Menos de 2.5 <span class="pull-right">7.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="7.00" data-choice="Visitante - Menos de 2.5" data-bet="Resultado e total de gols" data-id="241420281544849" data-match="115620205">Visitante - Menos de 2.5 <span class="pull-right">7.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.50" data-choice="Empate - Menos de 2.5" data-bet="Resultado e total de gols" data-id="881234320150355" data-match="115620205">Empate - Menos de 2.5 <span class="pull-right">5.50</span></a>
+                  </div>
+                </li>
+              
+                <li class="list-group-item btn-dark betNameList">Ambas equipes marcam e total de gols</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Ambas equipes marcam e acima de 2.5" data-bet="Ambas equipes marcam e total de gols" data-id="835591656201015" data-match="115620205">Ambas equipes marcam e acima de 2.5 <span class="pull-right">1.80</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="9.50" data-choice="Ambas NÃO marcam e acima de 2.5" data-bet="Ambas equipes marcam e total de gols" data-id="228354252158570" data-match="115620205">Ambas NÃO marcam e acima de 2.5 <span class="pull-right">9.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="7.50" data-choice="Ambas equipes marcam e abaixo de 2.5" data-bet="Ambas equipes marcam e total de gols" data-id="545180612441276" data-match="115620205">Ambas equipes marcam e abaixo de 2.5 <span class="pull-right">7.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.00" data-choice="Ambas NÃO marcam e abaixo de 2.5" data-bet="Ambas equipes marcam e total de gols" data-id="903060325323205" data-match="115620205">Ambas NÃO marcam e abaixo de 2.5 <span class="pull-right">3.00</span></a>
+                  </div>
+                </li>
+                  
+                    
+                <li class="list-group-item btn-dark betNameList">Número de gols</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                        <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="15.00" data-choice="0" data-bet="Número de gols" data-id="401018011544750" data-match="115620205">0 <span class="pull-right">15.00</span></a>
+                        
+                        <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="6.00" data-choice="1" data-bet="Número de gols" data-id="655138126241361" data-match="115620205">1 <span class="pull-right">6.00</span></a>
+    
+                        <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.00" data-choice="2" data-bet="Número de gols" data-id="972054289204026" data-match="115620205">2 <span class="pull-right">4.00</span></a>
+                        
+                        <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.00" data-choice="3" data-bet="Número de gols" data-id="153051410795084" data-match="115620205">3 <span class="pull-right">4.00</span></a>
+                        
+                        <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.00" data-choice="4" data-bet="Número de gols" data-id="675754727643020" data-match="115620205">4 <span class="pull-right">5.00</span></a>
+                        
+                        <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="8.50" data-choice="5" data-bet="Número de gols" data-id="156773950115817" data-match="115620205">5 <span class="pull-right">8.50</span></a>
+                        
+                        <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="15.00" data-choice="6" data-bet="Número de gols" data-id="164526052176383" data-match="115620205">6 <span class="pull-right">15.00</span></a>
+                        
+                        <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="19.00" data-choice="Mais de 7" data-bet="Número de gols" data-id="304317170904774" data-match="115620205">Mais de 7 <span class="pull-right">19.00</span></a>
+                  </div>
+                </li>
+    
+              
+                <li class="list-group-item btn-dark betNameList">Times para marcar</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.50" data-choice="Ambos os times" data-bet="Times para marcar" data-id="343686654661164" data-match="115620205">Ambos os times <span class="pull-right">1.50</span></a>
+              
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.50" data-choice="Apenas casa" data-bet="Times para marcar" data-id="154632430561994" data-match="115620205">Apenas casa <span class="pull-right">5.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="17.00" data-choice="Nenhum dos times" data-bet="Times para marcar" data-id="435372454413245" data-match="115620205">Nenhum dos times <span class="pull-right">17.00</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.50" data-choice="Apenas visitante" data-bet="Times para marcar" data-id="724230814073093" data-match="115620205">Apenas visitante <span class="pull-right">5.50</span></a>
+                  </div>
+                </li>
+                
+                
+              
+                <li class="list-group-item btn-dark betNameList">Ambas equipes marcam - 1º tempo</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.75" data-choice="Sim" data-bet="Ambas equipes marcam - 1º tempo" data-id="923755405045193" data-match="115620205">Sim <span class="pull-right">3.75</span></a>
+              
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.25" data-choice="Não" data-bet="Ambas equipes marcam - 1º tempo" data-id="244251175014836" data-match="115620205">Não <span class="pull-right">1.25</span></a>
+                  </div>
+                </li>
+                
+                
+              
+                <li class="list-group-item btn-dark betNameList">Ambas equipes marcam - 2º tempo</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.63" data-choice="Sim" data-bet="Ambas equipes marcam - 2º tempo" data-id="061738545134905" data-match="115620205">Sim <span class="pull-right">2.63</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.44" data-choice="Não" data-bet="Ambas equipes marcam - 2º tempo" data-id="801491030184993" data-match="115620205">Não <span class="pull-right">1.44</span></a>
+                  </div>
+                </li>
+              
+              
+              
+                <li class="list-group-item btn-dark betNameList">Ambas equipes marcam - 1º tempo / 2º tempo</li>
+                <li class="list-group-item li_inline_odds">
+                  <div class="row">
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="11.00" data-choice="Sim | Sim" data-bet="Ambas equipes marcam - 1º tempo / 2º tempo" data-id="824155411474555" data-match="115620205">Sim | Sim <span class="pull-right">11.00</span></a>
+              
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.50" data-choice="Sim | Não" data-bet="Ambas equipes marcam - 1º tempo / 2º tempo" data-id="408023902072498" data-match="115620205">Sim | Não <span class="pull-right">5.50</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.40" data-choice="Não | Sim" data-bet="Ambas equipes marcam - 1º tempo / 2º tempo" data-id="418064405232801" data-match="115620205">Não | Sim <span class="pull-right">3.40</span></a>
+                    
+                    <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Não | Não" data-bet="Ambas equipes marcam - 1º tempo / 2º tempo" data-id="550546083404976" data-match="115620205">Não | Não <span class="pull-right">1.80</span></a>
+                  </div>
+                </li>
+              
+    
+              
+              <li class="list-group-item btn-dark betNameList">Total de gols no 1º tempo</li>
+              <li class="list-group-item li_inline_odds">
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.30" data-choice="Mais de 0.5" data-bet="Total de gols no 1º tempo" data-id="557574250254183" data-match="115620205">Mais de 0.5 <span class="pull-right">1.30</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.38" data-choice="Mais de 1.5" data-bet="Total de gols no 1º tempo" data-id="898733524925620" data-match="115620205">Mais de 1.5 <span class="pull-right">2.38</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.50" data-choice="Mais de 2.5" data-bet="Total de gols no 1º tempo" data-id="445585172026252" data-match="115620205">Mais de 2.5 <span class="pull-right">5.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="15.00" data-choice="Mais de 3.5" data-bet="Total de gols no 1º tempo" data-id="761640511654373" data-match="115620205">Mais de 3.5 <span class="pull-right">15.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.40" data-choice="Menos de 0.5" data-bet="Total de gols no 1º tempo" data-id="625405235134400" data-match="115620205">Menos de 0.5 <span class="pull-right">3.40</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.53" data-choice="Menos de 1.5" data-bet="Total de gols no 1º tempo" data-id="802405530936680" data-match="115620205">Menos de 1.5 <span class="pull-right">1.53</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Menos de 2.5" data-bet="Total de gols no 1º tempo" data-id="320976892054234" data-match="115620205">Menos de 2.5 <span class="pull-right">0.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Menos de 3.5" data-bet="Total de gols no 1º tempo" data-id="503622011956538" data-match="115620205">Menos de 3.5 <span class="pull-right">0.00</span></a>
+                </div>
+              </li>
+              
+              
+              <li class="list-group-item btn-dark betNameList">Número de gols no 1º tempo</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.40" data-choice="0" data-bet="Número de gols no 1º tempo" data-id="325241129364115" data-match="115620205">0 <span class="pull-right">3.40</span></a>
+              
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.63" data-choice="1" data-bet="Número de gols no 1º tempo" data-id="862313061120905" data-match="115620205">1 <span class="pull-right">2.63</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.75" data-choice="2" data-bet="Número de gols no 1º tempo" data-id="942146793640577" data-match="115620205">2 <span class="pull-right">3.75</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="8.00" data-choice="3" data-bet="Número de gols no 1º tempo" data-id="544434995134122" data-match="115620205">3 <span class="pull-right">8.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="21.00" data-choice="4" data-bet="Número de gols no 1º tempo" data-id="590104350411320" data-match="115620205">4 <span class="pull-right">21.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Mais de 5" data-bet="Número de gols no 1º tempo" data-id="217515804257592" data-match="115620205">Mais de 5 <span class="pull-right">41.00</span></a>
+                </div>
+              </li>
+              
+              
+              
+              <li class="list-group-item btn-dark betNameList">Primeiro time a marcar</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Casa" data-bet="Primeiro time a marcar" data-id="038223843342733" data-match="115620205">Casa <span class="pull-right">1.80</span></a>
+              
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="17.00" data-choice="Sem gols" data-bet="Primeiro time a marcar" data-id="215969443535404" data-match="115620205">Sem gols <span class="pull-right">17.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.00" data-choice="Visitante" data-bet="Primeiro time a marcar" data-id="220223653978202" data-match="115620205">Visitante <span class="pull-right">2.00</span></a>
+                </div>
+              </li>
+              
+              
+              <li class="list-group-item btn-dark betNameList">Total de gols no 2º tempo</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Mais de 0.5" data-bet="Total de gols no 2º tempo" data-id="556526273314204" data-match="115620205">Mais de 0.5 <span class="pull-right">0.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Mais de 1.5" data-bet="Total de gols no 2º tempo" data-id="592829317043742" data-match="115620205">Mais de 1.5 <span class="pull-right">1.80</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.50" data-choice="Mais de 2.5" data-bet="Total de gols no 2º tempo" data-id="437227156593045" data-match="115620205">Mais de 2.5 <span class="pull-right">3.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="8.00" data-choice="Mais de 3.5" data-bet="Total de gols no 2º tempo" data-id="032775601392140" data-match="115620205">Mais de 3.5 <span class="pull-right">8.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="19.00" data-choice="Mais de 4.5" data-bet="Total de gols no 2º tempo" data-id="941206457555464" data-match="115620205">Mais de 4.5 <span class="pull-right">19.00</span></a>
+    
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.00" data-choice="Menos de 0.5" data-bet="Total de gols no 2º tempo" data-id="396376156108402" data-match="115620205">Menos de 0.5 <span class="pull-right">5.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.91" data-choice="Menos de 1.5" data-bet="Total de gols no 2º tempo" data-id="435822401082085" data-match="115620205">Menos de 1.5 <span class="pull-right">1.91</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.29" data-choice="Menos de 2.5" data-bet="Total de gols no 2º tempo" data-id="360953700255733" data-match="115620205">Menos de 2.5 <span class="pull-right">1.29</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Menos de 3.5" data-bet="Total de gols no 2º tempo" data-id="554270803518546" data-match="115620205">Menos de 3.5 <span class="pull-right">0.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Menos de 4.5" data-bet="Total de gols no 2º tempo" data-id="525893036157423" data-match="115620205">Menos de 4.5 <span class="pull-right">0.00</span></a>
+                </div>
+              </li>
+              
+              
+              
+              <li class="list-group-item btn-dark betNameList">Número de gols no 2º tempo</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.00" data-choice="0" data-bet="Número de gols no 2º tempo" data-id="279464783326875" data-match="115620205">0 <span class="pull-right">5.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.00" data-choice="1" data-bet="Número de gols no 2º tempo" data-id="325176284887480" data-match="115620205">1 <span class="pull-right">3.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.40" data-choice="2" data-bet="Número de gols no 2º tempo" data-id="963990523257604" data-match="115620205">2 <span class="pull-right">3.40</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.50" data-choice="3" data-bet="Número de gols no 2º tempo" data-id="400441212996192" data-match="115620205">3 <span class="pull-right">5.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="12.00" data-choice="4" data-bet="Número de gols no 2º tempo" data-id="504260302705301" data-match="115620205">4 <span class="pull-right">12.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="21.00" data-choice="Mais de 5" data-bet="Número de gols no 2º tempo" data-id="373210804652732" data-match="115620205">Mais de 5 <span class="pull-right">21.00</span></a>
+                </div>
+              </li>
+              
+              <li class="list-group-item btn-dark betNameList">Vence sem levar gols</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.00" data-choice="Casa - Sim" data-bet="Vence sem levar gols" data-id="953794926759803" data-match="115620205">Casa - Sim <span class="pull-right">4.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.22" data-choice="Casa - Não" data-bet="Vence sem levar gols" data-id="054426534702138" data-match="115620205">Casa - Não <span class="pull-right">1.22</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.00" data-choice="Visitante - Sim" data-bet="Vence sem levar gols" data-id="309560324610513" data-match="115620205">Visitante - Sim <span class="pull-right">4.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.22" data-choice="Visitante - Não" data-bet="Vence sem levar gols" data-id="442310412312455" data-match="115620205">Visitante - Não <span class="pull-right">1.22</span></a>
+                </div>
+              </li>
+              
+              <li class="list-group-item btn-dark betNameList">Total de gols por equipe</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.00" data-choice="Casa - Mais de 1.5" data-bet="Total de gols por equipe" data-id="133351517347626" data-match="115620205">Casa - Mais de 1.5 <span class="pull-right">2.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.73" data-choice="Casa - Menos de 1.5" data-bet="Total de gols por equipe" data-id="412226343704323" data-match="115620205">Casa - Menos de 1.5 <span class="pull-right">1.73</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.33" data-choice="Casa - Mais de 2.5" data-bet="Total de gols por equipe" data-id="947184440558725" data-match="115620205">Casa - Mais de 2.5 <span class="pull-right">4.33</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Casa - Menos de 2.5" data-bet="Total de gols por equipe" data-id="195633223054101" data-match="115620205">Casa - Menos de 2.5 <span class="pull-right">0.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="11.00" data-choice="Casa - Mais de 3.5" data-bet="Total de gols por equipe" data-id="501487253177715" data-match="115620205">Casa - Mais de 3.5 <span class="pull-right">11.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Casa - Menos de 3.5" data-bet="Total de gols por equipe" data-id="207745121837188" data-match="115620205">Casa - Menos de 3.5 <span class="pull-right">0.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="26.00" data-choice="Casa - Mais de 4.5" data-bet="Total de gols por equipe" data-id="535150408106464" data-match="115620205">Casa - Mais de 4.5 <span class="pull-right">26.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Casa - Menos de 4.5" data-bet="Total de gols por equipe" data-id="310422395201465" data-match="115620205">Casa - Menos de 4.5 <span class="pull-right">0.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.00" data-choice="Visitante - Mais de 1.5" data-bet="Total de gols por equipe" data-id="143171256161920" data-match="115620205">Visitante - Mais de 1.5 <span class="pull-right">2.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.73" data-choice="Visitante - Menos de 1.5" data-bet="Total de gols por equipe" data-id="255473035581115" data-match="115620205">Visitante - Menos de 1.5 <span class="pull-right">1.73</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.33" data-choice="Visitante - Mais de 2.5" data-bet="Total de gols por equipe" data-id="183730255939902" data-match="115620205">Visitante - Mais de 2.5 <span class="pull-right">4.33</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Visitante - Menos de 2.5" data-bet="Total de gols por equipe" data-id="143187509385712" data-match="115620205">Visitante - Menos de 2.5 <span class="pull-right">0.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="11.00" data-choice="Visitante - Mais de 3.5" data-bet="Total de gols por equipe" data-id="575845487430011" data-match="115620205">Visitante - Mais de 3.5 <span class="pull-right">11.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Visitante - Menos de 3.5" data-bet="Total de gols por equipe" data-id="022970819154952" data-match="115620205">Visitante - Menos de 3.5 <span class="pull-right">0.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="26.00" data-choice="Visitante - Mais de 4.5" data-bet="Total de gols por equipe" data-id="044664324530147" data-match="115620205">Visitante - Mais de 4.5 <span class="pull-right">26.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Visitante - Menos de 4.5" data-bet="Total de gols por equipe" data-id="337805545415053" data-match="115620205">Visitante - Menos de 4.5 <span class="pull-right">0.00</span></a>
+                </div>
+              </li>
+              
+              <li class="list-group-item btn-dark betNameList">Número de gols - Equipe 1</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.00" data-choice="0" data-bet="Número de gols - Equipe 1" data-id="337294141755137" data-match="115620205">0 <span class="pull-right">4.00</span></a>
+              
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.75" data-choice="1" data-bet="Número de gols - Equipe 1" data-id="950434298842540" data-match="115620205">1 <span class="pull-right">2.75</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.50" data-choice="2" data-bet="Número de gols - Equipe 1" data-id="055532349327509" data-match="115620205">2 <span class="pull-right">3.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.33" data-choice="Mais de 3" data-bet="Número de gols - Equipe 1" data-id="472630355726791" data-match="115620205">Mais de 3 <span class="pull-right">4.33</span></a>
+                </div>
+              </li>
+              
+              <li class="list-group-item btn-dark betNameList">Número de gols - Equipe 2</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.00" data-choice="0" data-bet="Número de gols - Equipe 2" data-id="180417000122131" data-match="115620205">0 <span class="pull-right">4.00</span></a>
+              
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.75" data-choice="1" data-bet="Número de gols - Equipe 2" data-id="191538549080551" data-match="115620205">1 <span class="pull-right">2.75</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.50" data-choice="2" data-bet="Número de gols - Equipe 2" data-id="324613511431341" data-match="115620205">2 <span class="pull-right">3.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.50" data-choice="Mais de 3" data-bet="Número de gols - Equipe 2" data-id="490634650510841" data-match="115620205">Mais de 3 <span class="pull-right">4.50</span></a>
+                </div>
+              </li>
+              
+              
+              <li class="list-group-item btn-dark betNameList">Total de gols - Par ou Impar</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.95" data-choice="Impar" data-bet="Total de gols - Par ou Impar" data-id="956721476801023" data-match="115620205">Impar <span class="pull-right">1.95</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.90" data-choice="Par" data-bet="Total de gols - Par ou Impar" data-id="742594440737903" data-match="115620205">Par <span class="pull-right">1.90</span></a>
+                </div>
+              </li>
+              
+              <li class="list-group-item btn-dark betNameList">Equipe 1 - Total de gols - Par ou Impar</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Par" data-bet="Equipe 1 - Total de gols - Par ou Impar" data-id="924633300423282" data-match="115620205">Par <span class="pull-right">1.80</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.91" data-choice="Impar" data-bet="Equipe 1 - Total de gols - Par ou Impar" data-id="337452513040332" data-match="115620205">Impar <span class="pull-right">1.91</span></a>
+                </div>
+              </li>
+              
+              <li class="list-group-item btn-dark betNameList">Equipe 2 - Total de gols - Par ou Impar</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Par" data-bet="Equipe 2 - Total de gols - Par ou Impar" data-id="516475201607422" data-match="115620205">Par <span class="pull-right">1.80</span></a>
+              
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.91" data-choice="Impar" data-bet="Equipe 2 - Total de gols - Par ou Impar" data-id="360958082033705" data-match="115620205">Impar <span class="pull-right">1.91</span></a>
+                </div>
+              </li>
+              
+              <li class="list-group-item btn-dark betNameList">1º tempo - Total de gols - Par ou Impar</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.00" data-choice="Impar" data-bet="1º tempo - Total de gols - Par ou Impar" data-id="041520804210293" data-match="115620205">Impar <span class="pull-right">2.00</span></a>
+              
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Par" data-bet="1º tempo - Total de gols - Par ou Impar" data-id="637105144333003" data-match="115620205">Par <span class="pull-right">1.80</span></a>
+                </div>
+              </li>
+              
+              <li class="list-group-item btn-dark betNameList">Vencedor do 1º tempo</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.00" data-choice="Casa" data-bet="Vencedor do 1º tempo" data-id="312441363052223" data-match="115620205">Casa <span class="pull-right">3.00</span></a>
+              
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.38" data-choice="Empate" data-bet="Vencedor do 1º tempo" data-id="059911446518423" data-match="115620205">Empate <span class="pull-right">2.38</span></a>
+              
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.10" data-choice="Visitante" data-bet="Vencedor do 1º tempo" data-id="244030442198954" data-match="115620205">Visitante <span class="pull-right">3.10</span></a>
+                </div>
+              </li>
+              
+                
+              <li class="list-group-item btn-dark betNameList">Dupla Possibilidade - 1º tempo</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class=" row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.36" data-choice="Equipe 1 ou empate" data-bet="Dupla Possibilidade - 1º tempo" data-id="184330731007524" data-match="115620205">Equipe 1 ou empate <span class="pull-right">1.36</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.36" data-choice="Equipe 2 ou empate" data-bet="Dupla Possibilidade - 1º tempo" data-id="033210555776303" data-match="115620205">Equipe 2 ou empate <span class="pull-right">1.36</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.53" data-choice="Equipe 1 ou Equipe 2" data-bet="Dupla Possibilidade - 1º tempo" data-id="024212140251519" data-match="115620205">Equipe 1 ou Equipe 2 <span class="pull-right">1.53</span></a>
+                </div>
+              </li>
+                
+              <li class="list-group-item btn-dark betNameList">Ambas equipes marcam e resultado - 1º tempo</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="15.00" data-choice="Ambas marcam e casa vence" data-bet="Ambas equipes marcam e resultado - 1º tempo" data-id="808551006523470" data-match="115620205">Ambas marcam e casa vence <span class="pull-right">15.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="15.00" data-choice="Ambas marcam e visitante vence" data-bet="Ambas equipes marcam e resultado - 1º tempo" data-id="929497423021756" data-match="115620205">Ambas marcam e visitante vence <span class="pull-right">15.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="6.50" data-choice="Ambas marcam e empatam" data-bet="Ambas equipes marcam e resultado - 1º tempo" data-id="254115755028046" data-match="115620205">Ambas marcam e empatam <span class="pull-right">6.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.60" data-choice="Ambas NÃO marcam e casa vence" data-bet="Ambas equipes marcam e resultado - 1º tempo" data-id="502457454858951" data-match="115620205">Ambas NÃO marcam e casa vence <span class="pull-right">3.60</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.60" data-choice="Ambas NÃO marcam e visitante vence" data-bet="Ambas equipes marcam e resultado - 1º tempo" data-id="726510040112430" data-match="115620205">Ambas NÃO marcam e visitante vence <span class="pull-right">3.60</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.40" data-choice="Ambas NÃO marcam e empatam" data-bet="Ambas equipes marcam e resultado - 1º tempo" data-id="542051143341012" data-match="115620205">Ambas NÃO marcam e empatam <span class="pull-right">3.40</span></a>
+                </div>
+              </li>
+                
+              <li class="list-group-item btn-dark betNameList">Placar exato do 1º tempo</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.75" data-choice="Casa (1-0)" data-bet="Placar exato do 1º tempo" data-id="222244454275327" data-match="115620205">Casa (1-0) <span class="pull-right">4.75</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="13.00" data-choice="Casa (2-0)" data-bet="Placar exato do 1º tempo" data-id="220624196944455" data-match="115620205">Casa (2-0) <span class="pull-right">13.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="19.00" data-choice="Casa (2-1)" data-bet="Placar exato do 1º tempo" data-id="658030431421640" data-match="115620205">Casa (2-1) <span class="pull-right">19.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Casa (3-0)" data-bet="Placar exato do 1º tempo" data-id="641433613685822" data-match="115620205">Casa (3-0) <span class="pull-right">41.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="51.00" data-choice="Casa (3-1)" data-bet="Placar exato do 1º tempo" data-id="550237548157186" data-match="115620205">Casa (3-1) <span class="pull-right">51.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (3-2)" data-bet="Placar exato do 1º tempo" data-id="561055401342202" data-match="115620205">Casa (3-2) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (4-0)" data-bet="Placar exato do 1º tempo" data-id="023455835473476" data-match="115620205">Casa (4-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (4-1)" data-bet="Placar exato do 1º tempo" data-id="391325144348651" data-match="115620205">Casa (4-1) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (4-2)" data-bet="Placar exato do 1º tempo" data-id="508197451016464" data-match="115620205">Casa (4-2) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (4-3)" data-bet="Placar exato do 1º tempo" data-id="615743463636044" data-match="115620205">Casa (4-3) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (5-0)" data-bet="Placar exato do 1º tempo" data-id="071290202310953" data-match="115620205">Casa (5-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (5-1)" data-bet="Placar exato do 1º tempo" data-id="601683241044434" data-match="115620205">Casa (5-1) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (5-2)" data-bet="Placar exato do 1º tempo" data-id="482852369252020" data-match="115620205">Casa (5-2) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (5-3)" data-bet="Placar exato do 1º tempo" data-id="020139072091344" data-match="115620205">Casa (5-3) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (6-0)" data-bet="Placar exato do 1º tempo" data-id="259127819465339" data-match="115620205">Casa (6-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (6-1)" data-bet="Placar exato do 1º tempo" data-id="263442642349104" data-match="115620205">Casa (6-1) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (6-2)" data-bet="Placar exato do 1º tempo" data-id="204512752546038" data-match="115620205">Casa (6-2) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (7-0)" data-bet="Placar exato do 1º tempo" data-id="495233421243161" data-match="115620205">Casa (7-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="3.40" data-choice="Empate (0-0)" data-bet="Placar exato do 1º tempo" data-id="404031927017326" data-match="115620205">Empate (0-0) <span class="pull-right">3.40</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="7.00" data-choice="Empate (1-1)" data-bet="Placar exato do 1º tempo" data-id="143458269421203" data-match="115620205">Empate (1-1) <span class="pull-right">7.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Empate (2-2)" data-bet="Placar exato do 1º tempo" data-id="110383749124332" data-match="115620205">Empate (2-2) <span class="pull-right">41.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Empate (3-3)" data-bet="Placar exato do 1º tempo" data-id="801900782693820" data-match="115620205">Empate (3-3) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Empate (4-4)" data-bet="Placar exato do 1º tempo" data-id="564899155256513" data-match="115620205">Empate (4-4) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.00" data-choice="Visitante (1-0)" data-bet="Placar exato do 1º tempo" data-id="028850373527755" data-match="115620205">Visitante (1-0) <span class="pull-right">5.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="13.00" data-choice="Visitante (2-0)" data-bet="Placar exato do 1º tempo" data-id="275135433134278" data-match="115620205">Visitante (2-0) <span class="pull-right">13.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="19.00" data-choice="Visitante (2-1)" data-bet="Placar exato do 1º tempo" data-id="145709392811864" data-match="115620205">Visitante (2-1) <span class="pull-right">19.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Visitante (3-0)" data-bet="Placar exato do 1º tempo" data-id="522242076884623" data-match="115620205">Visitante (3-0) <span class="pull-right">41.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="51.00" data-choice="Visitante (3-1)" data-bet="Placar exato do 1º tempo" data-id="740302355503978" data-match="115620205">Visitante (3-1) <span class="pull-right">51.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (3-2)" data-bet="Placar exato do 1º tempo" data-id="016263412506444" data-match="115620205">Visitante (3-2) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (4-0)" data-bet="Placar exato do 1º tempo" data-id="012132577153241" data-match="115620205">Visitante (4-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (4-1)" data-bet="Placar exato do 1º tempo" data-id="441810764484064" data-match="115620205">Visitante (4-1) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (4-2)" data-bet="Placar exato do 1º tempo" data-id="634329090993310" data-match="115620205">Visitante (4-2) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (4-3)" data-bet="Placar exato do 1º tempo" data-id="134453927011935" data-match="115620205">Visitante (4-3) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (5-0)" data-bet="Placar exato do 1º tempo" data-id="314738363111152" data-match="115620205">Visitante (5-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (5-1)" data-bet="Placar exato do 1º tempo" data-id="910122559284044" data-match="115620205">Visitante (5-1) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (5-2)" data-bet="Placar exato do 1º tempo" data-id="677575513775311" data-match="115620205">Visitante (5-2) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (5-3)" data-bet="Placar exato do 1º tempo" data-id="465914444458416" data-match="115620205">Visitante (5-3) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (6-0)" data-bet="Placar exato do 1º tempo" data-id="800372746820756" data-match="115620205">Visitante (6-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (6-1)" data-bet="Placar exato do 1º tempo" data-id="394095325203560" data-match="115620205">Visitante (6-1) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (6-2)" data-bet="Placar exato do 1º tempo" data-id="343225495741498" data-match="115620205">Visitante (6-2) <span class="pull-right">100.00</span></a>
+                </div>
+              </li>
+                
+              <li class="list-group-item btn-dark betNameList">Time marca no tempo</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.91" data-choice="Casa - 1º tempo - Sim" data-bet="Time marca no tempo" data-id="001245584444003" data-match="115620205">Casa - 1º tempo - Sim <span class="pull-right">1.91</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.62" data-choice="Casa - 2º tempo - Sim" data-bet="Time marca no tempo" data-id="108914412546809" data-match="115620205">Casa - 2º tempo - Sim <span class="pull-right">1.62</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Casa - 1º tempo - Não" data-bet="Time marca no tempo" data-id="137533460954768" data-match="115620205">Casa - 1º tempo - Não <span class="pull-right">1.80</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.20" data-choice="Casa - 2º tempo - Não" data-bet="Time marca no tempo" data-id="042431238151133" data-match="115620205">Casa - 2º tempo - Não <span class="pull-right">2.20</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.91" data-choice="Visitante - 1º tempo - Sim" data-bet="Time marca no tempo" data-id="841342542833927" data-match="115620205">Visitante - 1º tempo - Sim <span class="pull-right">1.91</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.62" data-choice="Visitante - 2º tempo - Sim" data-bet="Time marca no tempo" data-id="350922262006183" data-match="115620205">Visitante - 2º tempo - Sim <span class="pull-right">1.62</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Visitante - 1º tempo - Não" data-bet="Time marca no tempo" data-id="111403423916750" data-match="115620205">Visitante - 1º tempo - Não <span class="pull-right">1.80</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.20" data-choice="Visitante - 2º tempo - Não" data-bet="Time marca no tempo" data-id="494549950515273" data-match="115620205">Visitante - 2º tempo - Não <span class="pull-right">2.20</span></a>
+                </div>
+              </li>
+                
+              <li class="list-group-item btn-dark betNameList">Vencedor do 2º tempo</li>
+              <li class="list-group-item li_inline_odds">
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.75" data-choice="Casa" data-bet="Vencedor do 2º tempo" data-id="830350905071828" data-match="115620205">Casa <span class="pull-right">2.75</span></a>
+                    
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.63" data-choice="Empate" data-bet="Vencedor do 2º tempo" data-id="902326781278505" data-match="115620205">Empate <span class="pull-right">2.63</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="2.75" data-choice="Visitante" data-bet="Vencedor do 2º tempo" data-id="319390654125749" data-match="115620205">Visitante <span class="pull-right">2.75</span></a>
+                </div>
+              </li>
+                
+              <li class="list-group-item btn-dark betNameList">2º tempo - Total de gols - Par ou Impar</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.91" data-choice="Impar" data-bet="2º tempo - Total de gols - Par ou Impar" data-id="006819225516261" data-match="115620205">Impar <span class="pull-right">1.91</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.80" data-choice="Par" data-bet="2º tempo - Total de gols - Par ou Impar" data-id="318792029594833" data-match="115620205">Par <span class="pull-right">1.80</span></a>
+                </div>
+              </li>
+                
+              <li class="list-group-item btn-dark betNameList">Ambas equipes marcam e resultado</li>
+              <li class="list-group-item li_inline_odds">
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.33" data-choice="Ambas marcam e casa vence" data-bet="Ambas equipes marcam e resultado" data-id="509587550001495" data-match="115620205">Ambas marcam e casa vence <span class="pull-right">4.33</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.33" data-choice="Ambas marcam e visitante vence" data-bet="Ambas equipes marcam e resultado" data-id="045507512103940" data-match="115620205">Ambas marcam e visitante vence <span class="pull-right">4.33</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.33" data-choice="Ambas marcam e empatam" data-bet="Ambas equipes marcam e resultado" data-id="060210152589208" data-match="115620205">Ambas marcam e empatam <span class="pull-right">4.33</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.50" data-choice="Ambas NÃO marcam e casa vence" data-bet="Ambas equipes marcam e resultado" data-id="284320803625660" data-match="115620205">Ambas NÃO marcam e casa vence <span class="pull-right">5.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="5.50" data-choice="Ambas NÃO marcam e visitante vence" data-bet="Ambas equipes marcam e resultado" data-id="032216071545050" data-match="115620205">Ambas NÃO marcam e visitante vence <span class="pull-right">5.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="17.00" data-choice="Ambas NÃO marcam e empatam" data-bet="Ambas equipes marcam e resultado" data-id="027393015104523" data-match="115620205">Ambas NÃO marcam e empatam <span class="pull-right">17.00</span></a>
+                </div>
+              </li>
+                
+              <li class="list-group-item btn-dark betNameList">Placar Final</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="12.00" data-choice="Casa (1-0)" data-bet="Placar Final" data-id="453004032341862" data-match="115620205">Casa (1-0) <span class="pull-right">12.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="15.00" data-choice="Casa (2-0)" data-bet="Placar Final" data-id="623852523975517" data-match="115620205">Casa (2-0) <span class="pull-right">15.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="10.00" data-choice="Casa (2-1)" data-bet="Placar Final" data-id="339349715184073" data-match="115620205">Casa (2-1) <span class="pull-right">10.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="26.00" data-choice="Casa (3-0)" data-bet="Placar Final" data-id="441500855599471" data-match="115620205">Casa (3-0) <span class="pull-right">26.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="19.00" data-choice="Casa (3-1)" data-bet="Placar Final" data-id="920258812031204" data-match="115620205">Casa (3-1) <span class="pull-right">19.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="23.00" data-choice="Casa (3-2)" data-bet="Placar Final" data-id="138054442344355" data-match="115620205">Casa (3-2) <span class="pull-right">23.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Casa (4-0)" data-bet="Placar Final" data-id="792622337806011" data-match="115620205">Casa (4-0) <span class="pull-right">41.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Casa (4-1)" data-bet="Placar Final" data-id="391450585625201" data-match="115620205">Casa (4-1) <span class="pull-right">41.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Casa (4-2)" data-bet="Placar Final" data-id="189288207100181" data-match="115620205">Casa (4-2) <span class="pull-right">41.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="67.00" data-choice="Casa (4-3)" data-bet="Placar Final" data-id="860402639235308" data-match="115620205">Casa (4-3) <span class="pull-right">67.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (5-0)" data-bet="Placar Final" data-id="532285259935411" data-match="115620205">Casa (5-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="67.00" data-choice="Casa (5-1)" data-bet="Placar Final" data-id="524554055911670" data-match="115620205">Casa (5-1) <span class="pull-right">67.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="81.00" data-choice="Casa (5-2)" data-bet="Placar Final" data-id="120211336251345" data-match="115620205">Casa (5-2) <span class="pull-right">81.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (5-3)" data-bet="Placar Final" data-id="385241530114551" data-match="115620205">Casa (5-3) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (5-4)" data-bet="Placar Final" data-id="483200544840887" data-match="115620205">Casa (5-4) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (6-0)" data-bet="Placar Final" data-id="217020225186413" data-match="115620205">Casa (6-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (6-1)" data-bet="Placar Final" data-id="134583454277071" data-match="115620205">Casa (6-1) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Casa (6-2)" data-bet="Placar Final" data-id="334052830319088" data-match="115620205">Casa (6-2) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="17.00" data-choice="Empate (0-0)" data-bet="Placar Final" data-id="717004590595534" data-match="115620205">Empate (0-0) <span class="pull-right">17.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="7.50" data-choice="Empate (1-1)" data-bet="Placar Final" data-id="861465974657432" data-match="115620205">Empate (1-1) <span class="pull-right">7.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="12.00" data-choice="Empate (2-2)" data-bet="Placar Final" data-id="515792532659350" data-match="115620205">Empate (2-2) <span class="pull-right">12.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="34.00" data-choice="Empate (3-3)" data-bet="Placar Final" data-id="498332255113504" data-match="115620205">Empate (3-3) <span class="pull-right">34.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Empate (4-4)" data-bet="Placar Final" data-id="344553549519602" data-match="115620205">Empate (4-4) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="12.00" data-choice="Visitante (1-0)" data-bet="Placar Final" data-id="204515234820224" data-match="115620205">Visitante (1-0) <span class="pull-right">12.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="15.00" data-choice="Visitante (2-0)" data-bet="Placar Final" data-id="975901389587236" data-match="115620205">Visitante (2-0) <span class="pull-right">15.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="10.00" data-choice="Visitante (2-1)" data-bet="Placar Final" data-id="445804526094256" data-match="115620205">Visitante (2-1) <span class="pull-right">10.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="26.00" data-choice="Visitante (3-0)" data-bet="Placar Final" data-id="105441980767360" data-match="115620205">Visitante (3-0) <span class="pull-right">26.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="19.00" data-choice="Visitante (3-1)" data-bet="Placar Final" data-id="234071256451450" data-match="115620205">Visitante (3-1) <span class="pull-right">19.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="23.00" data-choice="Visitante (3-2)" data-bet="Placar Final" data-id="537315820132979" data-match="115620205">Visitante (3-2) <span class="pull-right">23.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="51.00" data-choice="Visitante (4-0)" data-bet="Placar Final" data-id="355891376442502" data-match="115620205">Visitante (4-0) <span class="pull-right">51.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Visitante (4-1)" data-bet="Placar Final" data-id="317302223241018" data-match="115620205">Visitante (4-1) <span class="pull-right">41.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="41.00" data-choice="Visitante (4-2)" data-bet="Placar Final" data-id="001218744414201" data-match="115620205">Visitante (4-2) <span class="pull-right">41.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="67.00" data-choice="Visitante (4-3)" data-bet="Placar Final" data-id="753576301821853" data-match="115620205">Visitante (4-3) <span class="pull-right">67.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (5-0)" data-bet="Placar Final" data-id="353121743560732" data-match="115620205">Visitante (5-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="67.00" data-choice="Visitante (5-1)" data-bet="Placar Final" data-id="234835265257146" data-match="115620205">Visitante (5-1) <span class="pull-right">67.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="81.00" data-choice="Visitante (5-2)" data-bet="Placar Final" data-id="115930901030240" data-match="115620205">Visitante (5-2) <span class="pull-right">81.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (5-3)" data-bet="Placar Final" data-id="522530848205450" data-match="115620205">Visitante (5-3) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (6-0)" data-bet="Placar Final" data-id="211537543503651" data-match="115620205">Visitante (6-0) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (6-1)" data-bet="Placar Final" data-id="105262345203105" data-match="115620205">Visitante (6-1) <span class="pull-right">100.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="100.00" data-choice="Visitante (6-2)" data-bet="Placar Final" data-id="012320106453072" data-match="115620205">Visitante (6-2) <span class="pull-right">100.00</span></a>
+                </div>
+              </li>
+                
+              <li class="list-group-item btn-dark betNameList">Vencedor ao intervalo | Vencedor do jogo</li>
+              <li class="list-group-item li_inline_odds"> 
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.00" data-choice="Casa | Casa" data-bet="Vencedor ao intervalo | Vencedor do jogo" data-id="144851156608205" data-match="115620205">Casa | Casa <span class="pull-right">4.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="13.00" data-choice="Casa | Empate" data-bet="Vencedor ao intervalo | Vencedor do jogo" data-id="414015095558219" data-match="115620205">Casa | Empate <span class="pull-right">13.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="23.00" data-choice="Casa | Visitante" data-bet="Vencedor ao intervalo | Vencedor do jogo" data-id="419109572030504" data-match="115620205">Casa | Visitante <span class="pull-right">23.00</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="6.50" data-choice="Empate | Casa" data-bet="Vencedor ao intervalo | Vencedor do jogo" data-id="355744570533644" data-match="115620205">Empate | Casa <span class="pull-right">6.50</span></a>
+                  
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="6.00" data-choice="Empate | Empate" data-bet="Vencedor ao intervalo | Vencedor do jogo" data-id="558352540100070" data-match="115620205">Empate | Empate <span class="pull-right">6.00</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="6.50" data-choice="Empate | Visitante" data-bet="Vencedor ao intervalo | Vencedor do jogo" data-id="218414293368013" data-match="115620205">Empate | Visitante <span class="pull-right">6.50</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="23.00" data-choice="Visitante | Casa" data-bet="Vencedor ao intervalo | Vencedor do jogo" data-id="804124502831035" data-match="115620205">Visitante | Casa <span class="pull-right">23.00</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="13.00" data-choice="Visitante | Empate" data-bet="Vencedor ao intervalo | Vencedor do jogo" data-id="812532800229517" data-match="115620205">Visitante | Empate <span class="pull-right">13.00</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="4.00" data-choice="Visitante | Visitante" data-bet="Vencedor ao intervalo | Vencedor do jogo" data-id="719136633147092" data-match="115620205">Visitante | Visitante <span class="pull-right">4.00</span></a>
+                </div>
+              </li>
+              
+              <li class="list-group-item btn-dark betNameList">Empate anula aposta</li>
+              <li class="list-group-item li_inline_odds">
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.83" data-choice="Casa" data-bet="Empate anula aposta" data-id="011490454272405" data-match="115620205">Casa <span class="pull-right">1.83</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-6  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="1.83" data-choice="Visitante" data-bet="Empate anula aposta" data-id="255290287048498" data-match="115620205">Visitante <span class="pull-right">1.83</span></a>
+                </div>
+              </li>
+    
+              <li class="list-group-item btn-dark betNameList">Resultado nos 10 primeiros minutos</li>
+              <li class="list-group-item li_inline_odds">
+                <div class="row">
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="7.00" data-choice="Casa" data-bet="Resultado nos 10 primeiros minutos" data-id="724740352332224" data-match="115620205">Casa <span class="pull-right">7.00</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="0.00" data-choice="Empate" data-bet="Resultado nos 10 primeiros minutos" data-id="534134354622144" data-match="115620205">Empate <span class="pull-right">0.00</span></a>
+                
+                  <a onclick="javascript:sendBet(this);" class="col-12 col-sm-4  btn btn-default inline_odds btn-lg " data-matchname="FC Goa x Mumbai City FC" data-odd="7.00" data-choice="Visitante" data-bet="Resultado nos 10 primeiros minutos" data-id="848393131757501" data-match="115620205">Visitante <span class="pull-right">7.00</span></a>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="conteudo-right2" style="display: none;">
+      <div>
+        <div class="barra-assista">
+          <div>
+            <p>Assista</p>
+          </div>
+  
+          <div>
+  
+            <a href="#">
+              <img src="img/ícones/youtube.png" class="item-assista " width="18px">
+            </a>
+  
+            <a href="#">
+              <img src="img/ícones/campo.png" class="item-assista " width="18px">
+            </a>
+  
+            <a href="#">
+              <img src="img/ícones/gráfico.png" class="item-assista selected" width="18px">
+            </a>
+  
+            <a href="#">
+              <img src="img/ícones/seta-2-baixo.png" class="item-assista " width="18px">
+            </a>
+  
+          </div>
+        </div>
+  
+        <div class="cupom-aposta">
+          <div class="title-cupom-aposta">
+              <a href="#">Cupom</a>
+              <div class="barra-cupom"></div>
+              <a href="#">Minhas Apostas</a>
+          </div>
+  
+          <div class="info-cupom-aposta">
+            <div>
+              <img src="img/ícones/informação.png" width="18px" alt="Informações Aposta">
+              <span class="p-title cupom-aposta">Nenhuma aposta selecionada!</span>
+            </div>
+            <span class="p-subtitle cupom-aposta">Selecione suas apostas em nosso site tocando nas cotas.</span>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="banner-right">
+        <img src="img/banners/banner_3.png" alt="Múltipla Melhorada" width="280px">
+      </div> 
+    </div>
+  </main>
+
+  <footer>
+    <div class="fm-FooterModule_Wrapper ">
+      <div class="fbr-FooterModuleBR_ThirdPartyLogosCell ">
+        <div class="fol-ImageLink ">
+          <img src="img/footer/GT_v2.svg">
+        </div><div class="fol-ImageLink ">
+          <img src="img/footer/InternationalBettingIntegrity.svg">
+        </div>
+        <div class="fol-ImageLink ">
+          <img src="img/footer/MGA.svg">
+        </div>
+        <div class="fol-ImageLink ">
+          <img src="img/footer/eCogra.svg">
+        </div>
+        <img src="img/footer/18.svg" class="fol-ImageElement ">
+      </div>
+    </div>
+
+    <div class="fm-FooterModule_Content ">
+      <div class="fm-FooterModule_LogoHolder ">
+        <img src="img/logo.png" class="fm-FooterModule_Logo" width="150px">
+
+        <div class="fbr-FooterModuleBR_RegisteredOfficeTextContainer ">
+          <div class="fbr-FooterModuleBR_GambleResponsibly ">Apostar pode provocar dependência, por favor jogue responsavelmente. Para informação sobre formas de apoio, por favor acesse a nossa <span class="fol-LabelLink ">página de Ajuda de Jogo Responsável</span>.
+          </div>
+          
+          <div class="fbr-FooterModuleBR_License ">Hillside (Sports) ENC, número de registro P1811, Office 1/2373, Level G, Quantum House, 75 Abate Rigord Street, Ta’ Xbiex XBX 1120, Malta. Hillside (Sports) ENC é licenciada e regulada pela Malta Gaming Authority (MGA), Licença número <div class="fbr-FooterModuleBR_LicenseNumber "><span class="fol-LabelLink ">MGA/B2C/531/2018</span>.
+          </div>
+        </div>
+      </div>
+      
+      <div class="fm-FooterModule_Copyright ">© 2001-2022 bet365. Todos os direitos reservados.</div>
+        <div class="fm-FooterModule_ServerTimeCell ">
+          <div class="fm-FooterModule_ServerTime ">Hora do Servidor 04:56:26 GMT-3</div>
+        </div>
+      </div>
+
+      <div class="fm-SitesMenu fm-SitesMenu_SingleColumn fm-SitesMenu_WidthState1 ">
+        <div class="fm-SiteLink ">Cassino</div>
+        <div class="fm-SiteLink ">Cassino Ao-Vivo</div>
+        <div class="fm-SiteLink ">Jogos</div>
+        <div class="fm-SiteLink ">Pôquer</div>
+      </div>
+    </div>
+
+    <div class="fbr-FooterModuleBR_CookieText ">
+      <div class="fm-FooterModule_CookiePolicy ">Ao acessar, continuar a utilizar ou ao navegar neste site, você aceita que utilizemos certos cookies de navegador com o objetivo de melhorar a sua experiência como usuário. A bet365 apenas utiliza cookies que melhoram a sua experiência e não interferem em sua privacidade. Por favor, consulte a nossa <span class="fol-CookieLabelLink ">Política de Cookies</span><span> para mais informações sobre a forma como utilizamos cookies e como pode desativar ou gerenciar os mesmos, caso queira.</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Modal LOGIN-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content login">
+          <div class="modal-header login">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body login">
+            <form action="#" class="form-login">
+              <input type="text" placeholder="Nome de usuário">
+              <input type="password" placeholder="Senha">
+            </form>
+          </div>
+          <div class="modal-footer login">
+            <button type="button" class="btn btn-primary">ENTRAR</button>
+            <a href="#">
+              <p>Esqueci minha senha</p>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
